@@ -1,0 +1,35 @@
+! START https://www.setopati.com
+||img.setoparty.com/uploads/bigyapan/*$image
+www.setopati.com##.mast-head.col-md-12
+! END https://www.setopati.com
+
+! START https://www.onlinekhabar.com
+www.onlinekhabar.com##.okam-each-ad
+! END https://www.onlinekhabar.com
+
+! START https://ekantipur.com
+||assets-cdn.kantipurdaily.com/uploads/source/ads/*$image
+ekantipur.com##div.kdaily-high-ad
+! END https://ekantipur.com
+
+! START https://pahilopost.com
+||pahilopost.com/assets/upload/headbanner/*$image
+||pahilopost.com/assets/upload/midadvertise/*$image
+pahilopost.com##div.uk-container-center.uk-container:nth-of-type(10) > .uk-hidden-small.uk-thumbnail-expand.pahilo-shadow-box > .uk-thumbnail-expand.uk-thumbnail
+pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidden-small.uk-thumbnail-expand.pahilo-shadow-box > .uk-thumbnail-expand.uk-thumbnail
+! END https://pahilopost.com
+
+! START https://nepalkhabar.com
+||nepalkhabar.com/images/news2019/add/*$image
+nepalkhabar.com##[href^="/component/banners/click"]
+! END https://nepalkhabar.com
+
+! START https://goalnepal.com
+||goalnepal.com/uploads/banners/*$image
+goalnepal.com###wrapper > .adbox.section
+goalnepal.com##.above-news.adbox.section
+! END https://goalnepal.com
+
+! START https://baahrakhari.com
+||baahrakhari.com/uploads/bigyaapan/*$image
+! END https://baahrakhari.com

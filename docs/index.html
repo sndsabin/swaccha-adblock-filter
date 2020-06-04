@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Swaccha Adblock Filter">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Swaccha Adblock Filter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <span class="broom-icon"><i class="fas fa-broom fa-6x"></i></span>
+        <span class="ad-icon"><i class="fas fa-ad fa-2x"></i></span></span>
+        <h1 class="my-0 mr-md-auto font-weight-normal">
+            स्वच्छ
+        </h1>
+        <a class="btn btn-outline-primary" href="https://github.com/sndsabin/swaccha-adblock-filter" target="_blank"
+            rel="noreferrer noopener">Contribute</a>
+    </div>
+    <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">स्वच्छ</h1>
+        <p class="lead">is a collection of static adblock filters for various popular Nepali sites. It helps you keeps
+            annonying
+            ads away from popular Nepali sites.</p>
+        <p class="lead font-weight-bold">Note: This is not a universal solution for all popular Nepali sites.</p>
+    </div>
+
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Step 1</h4>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Install Any Adblock Extension</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
+                                    href="http://getadblock.com/" target="_blank"
+                                    rel="noreferrer noopener">AdBlock</a></button></li>
+                        <span class="mr-2">or</span>
+                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
+                                    href="http://adblockplus.org/" target="_blank" rel="noreferrer noopener">AdBlock
+                                    Plus</a></button>
+                        </li>
+                        <span class="mr-2">or</span>
+                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
+                                    href="https://github.com/gorhill/uBlock" target="_blank"
+                                    rel="noreferrer noopener">uBlock
+                                    Origin</a></button></li>
+                        <span class="mr-2">or</span>
+                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
+                                    href="https://adguard.com/en/adguard-browser-extension/overview.html"
+                                    target="_blank" rel="noreferrer noopener">Adguard
+                                    AdBlocker</a></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Step 2</h4>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Add the static adblock filter</h4>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary"><a
+                            href="abp:subscribe?location=https://raw.github.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt&amp;title=Swaccha static adblock filter"
+                            target="_blank" rel="noreferrer noopener">Click to add it
+                            automatically</a></button>
+                    <h5 class="mt-5">Or add it manually to your adblocker. You could also copy/paste content to filters.
+                    </h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" aria-label="Swachha adblock static filter url"
+                            value="https://raw.github.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt"
+                            aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">URL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1>Didn't work ? Site missing from the list ?</h1>
+                <p class="lead"> It's possible that the site might have recently updated it's layout or changed it's ad
+                    url pattern
+                    or
+                    the
+                    filter list hasn't been updated. Even filter rule for the site could be missing from the list.
+                    If so, Please feel free to <a href="https://github.com/sndsabin/swaccha-adblock-filter/issues/new"
+                        target="_blank" rel="noreferrer noopener">create an issue</a> or <a
+                        href="https://github.com/sndsabin/swaccha-adblock-filter/pulls" target="_blank"
+                        rel="noreferrer noopener">open a pull request</a>.</p>
+
+                <p>
+                    <a href="https://github.com/sndsabin/swaccha-adblock-filter/issues/new" target="_blank"
+                        rel="noreferrer noopener" class="btn btn-primary my-2">Create Issue</a>
+                    <a href="https://github.com/sndsabin/swaccha-adblock-filter/pulls" target="_blank"
+                        rel="noreferrer noopener" class="btn btn-secondary my-2">Open PR</a>
+                </p>
+                <p class="lead text-muted">
+                    If you need help with creating custom filter. Please refer to <a
+                        href="https://adblockplus.org/filter-cheatsheet" target="_blank" rel="noreferrer noopener">cheat
+                        sheet</a>.
+                    <p>
+            </div>
+        </section>
+
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://github.com/sndsabin/swaccha-adblock-filter"
+                        target="_blank" rel="noreferrer noopener"><i class="fab fa-2x fa-github"></i></a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item">Built with <a href="https://getbootstrap.com" target="_blank"
+                        rel="noreferrer noopener">Bootstrap</a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

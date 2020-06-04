@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .ad-icon {
+    margin-top: 60px;
+    margin-left: -50px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+@media (max-width: 768px) {
+  .list-inline-item {
+    margin-bottom: 20px;
+  }
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #000000;
+  text-decoration: underline;
+}
