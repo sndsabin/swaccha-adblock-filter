@@ -3,7 +3,7 @@
 ! Version: 0.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
-! Licence: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
+! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
 !
 ! Please feel free to open an issue or contribute
 ! Repo: https://github.com/sndsabin/swaccha-adblock-filter
