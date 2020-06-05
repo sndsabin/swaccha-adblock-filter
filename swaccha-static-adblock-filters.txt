@@ -48,3 +48,8 @@ goalnepal.com##.above-news.adbox.section
 ! ----- START http://annapurnapost.com -----
 annapurnapost.com##div.advertisement
 ! ----- END http://annapurnapost.com -----
+
+! ----- START https://gorkhapatraonline.com -----
+||gorkhapatraonline.com/charity_image/*$image
+gorkhapatraonline.com##div.adds
+! ----- END https://gorkhapatraonline.com -----
