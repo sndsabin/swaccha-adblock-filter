@@ -15,6 +15,7 @@ www.setopati.com##.mast-head.col-md-12
 
 ! ----- START https://www.onlinekhabar.com -----
 www.onlinekhabar.com##.okam-each-ad
+www.onlinekhabar.com##.ok_roadblock
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://ekantipur.com -----
