@@ -31,3 +31,5 @@ It's possible that the site might have recently updated it's layout or changed i
 ## License
 
 [ISC](LICENSE)
+
+**Inspired from [anti-adblock-killer](https://github.com/reek/anti-adblock-killer).**
