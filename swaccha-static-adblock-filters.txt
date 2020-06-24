@@ -11,6 +11,7 @@
 ! ----- START https://www.setopati.com -----
 ||img.setoparty.com/uploads/bigyapan/*$image
 www.setopati.com##.mast-head.col-md-12
+www.setopati.com###inner-jacket
 ! ----- END https://www.setopati.com -----
 
 ! ----- START https://www.onlinekhabar.com -----
