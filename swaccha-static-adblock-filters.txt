@@ -54,3 +54,7 @@ annapurnapost.com##div.advertisement
 ||gorkhapatraonline.com/charity_image/*$image
 gorkhapatraonline.com##div.adds
 ! ----- END https://gorkhapatraonline.com -----
+
+! ----- START https://www.neplays.com/ -----
+neplays.com##div[itemtype^="https://schema.org/WPAdBlock"]
+! ----- END https://www.neplays.com/ -----
