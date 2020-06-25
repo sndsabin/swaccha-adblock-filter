@@ -65,3 +65,15 @@ hamrokhelkud.com##div.widget_text.widget:nth-of-type(2) > .textwidget
 hamrokhelkud.com##div.widget_text.widget:nth-of-type(3)
 hamrokhelkud.com##.secondary-sidebar.sidebar > .widget_text.widget
 ! ----- END https://www.hamrokhelkud.com -----
+
+! ----- START https://www.himalkhabar.com -----
+||www.himalkhabar.com/uploads/bigyapan/*$image
+! ----- END https://www.himalkhabar.com -----
+
+! ----- START https://www.nepalitimes.com -----
+nepalitimes.com##.paid_banner
+nepalitimes.com##div.adv-section
+nepalitimes.com##.about-page-detailing > div.container:nth-of-type(1)
+nepalitimes.com###content > .container
+nepalitimes.com##.nepali-press-section > .container > .row > div.col-sm-4.col-xs-12:nth-of-type(3)
+! ----- END https://www.nepalitimes.com -----
