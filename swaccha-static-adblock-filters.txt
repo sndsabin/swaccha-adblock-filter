@@ -68,7 +68,7 @@ hamrokhelkud.com##.secondary-sidebar.sidebar > .widget_text.widget
 ! ----- END https://www.hamrokhelkud.com -----
 
 ! ----- START https://www.himalkhabar.com -----
-||www.himalkhabar.com/uploads/bigyapan/*$image
+||www.himalkhabar.com/uploads/bigyaapan/*$image
 ! ----- END https://www.himalkhabar.com -----
 
 ! ----- START https://www.nepalitimes.com -----
