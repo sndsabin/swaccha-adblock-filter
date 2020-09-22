@@ -93,3 +93,7 @@ ratopati.com##div[class*="adalytics_ad"]
 ! ----- START https://shilapatra.com -----
 ||img.shilapatra.de/uploads/bigyapan/*$image
 ! ----- END https://shilapatra.com -----
+
+! ----- START https://www.dcnepal.com -----
+www.dcnepal.com##.gam-each-ad
+! ----- END https://www.dcnepal.com -----
