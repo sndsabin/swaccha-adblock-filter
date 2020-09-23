@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.4
+! Version: 0.1.5
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -10,6 +10,7 @@
 
 ! ----- START https://www.setopati.com -----
 ||img.setoparty.com/uploads/bigyapan/*$image
+||img.setoparty.com/uploads/bigyaapan/*$image
 www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
 ! ----- END https://www.setopati.com -----
