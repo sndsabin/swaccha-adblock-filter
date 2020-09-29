@@ -98,3 +98,7 @@ ratopati.com##div[class*="adalytics_ad"]
 ! ----- START https://www.dcnepal.com -----
 www.dcnepal.com##.gam-each-ad
 ! ----- END https://www.dcnepal.com -----
+
+! ----- START https://kathmandupress.com -----
+||img.kathmandupress.de/uploads/bigyaapan/*$image
+! ----- END https://kathmandupress.com -----
