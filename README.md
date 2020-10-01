@@ -2,7 +2,7 @@
 
 <div align="center">
 <img width="200" src="docs/images/logo.png" alt="स्वच्छ">
-<p><a href="https://sndsabin.github.io/swaccha-adblock-filter/" target="_blank" rel="noreferrer noopener">Swaccha</a> is a collection of static adblock filters for various popular Nepali sites. It helps you keeps
+<p><a href="https://sndsabin.github.io/swaccha-adblock-filter/" target="_blank" rel="noreferrer noopener">Swaccha</a> is a collection of static adblock filters for various popular Nepali sites. It helps you keep
             annonying
             ads away from various popular Nepali sites.
 </div>
@@ -24,9 +24,9 @@
 
 ## Didn't work ? Site missing from the list ?
 
-It's possible that the site might have recently updated it's layout or changed it's ad url pattern or the filter list hasn't been updated. Even filter rule for the site could be missing from the list. If so, Please feel free to [create an issue](https://github.com/sndsabin/swaccha-adblock-filter/issues/new) or [open a pull request](https://github.com/sndsabin/swaccha-adblock-filter/pulls).
+It's possible that the site might have recently updated it's layout or has changed it's ad url pattern or the filter list hasn't been updated. The filter rule for the site could be missing from the list. If so, Please feel free to [create an issue](https://github.com/sndsabin/swaccha-adblock-filter/issues/new) or [open a pull request](https://github.com/sndsabin/swaccha-adblock-filter/pulls).
 
-#### If you need help with creating custom filter. Please refer to [cheat sheet](https://adblockplus.org/filter-cheatsheet)
+#### If you need help with creating custom filter. Please refer to the [cheat sheet](https://adblockplus.org/filter-cheatsheet)
 
 ## License
 
