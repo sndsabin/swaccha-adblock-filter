@@ -24,7 +24,7 @@
 
 ## Didn't work? Site missing from the list?
 
-The site might have recently updated it's layout or has changed its ad URL pattern or the filter list hasn't been updated. The filter rule for the site could be missing from the list. If so, please feel free to [create an issue](https://github.com/sndsabin/swaccha-adblock-filter/issues/new) or [open a pull request](https://github.com/sndsabin/swaccha-adblock-filter/pulls).
+The site might have recently updated its layout or has changed its ad URL pattern or the filter list hasn't been updated. The filter rule for the site could be missing from the list. If so, please feel free to [create an issue](https://github.com/sndsabin/swaccha-adblock-filter/issues/new) or [open a pull request](https://github.com/sndsabin/swaccha-adblock-filter/pulls).
 
 #### If you need help with creating a custom filter. Please refer to the [cheat sheet](https://adblockplus.org/filter-cheatsheet)
 
