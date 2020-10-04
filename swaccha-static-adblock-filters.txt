@@ -70,6 +70,7 @@ hamrokhelkud.com##.secondary-sidebar.sidebar > .widget_text.widget
 
 ! ----- START https://www.himalkhabar.com -----
 ||www.himalkhabar.com/uploads/bigyaapan/*$image
+||img.himalkhabar.de/uploads/bigyaapan/*$image
 ! ----- END https://www.himalkhabar.com -----
 
 ! ----- START https://www.nepalitimes.com -----
