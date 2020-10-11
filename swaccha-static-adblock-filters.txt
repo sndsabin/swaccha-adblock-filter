@@ -9,8 +9,8 @@
 ! Repo: https://github.com/sndsabin/swaccha-adblock-filter
 
 ! ----- START https://www.setopati.com -----
-||img.setoparty.com/uploads/bigyapan/*$image
-||img.setoparty.com/uploads/bigyaapan/*$image
+||img.setopati.com/uploads/bigyapan/*$image
+||img.setopaty.com/uploads/bigyaapan/*$image
 www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
 ! ----- END https://www.setopati.com -----
