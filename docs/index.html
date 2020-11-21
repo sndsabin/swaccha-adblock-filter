@@ -90,7 +90,7 @@
                     <h5 class="mt-5">Or add it manually to your adblocker. You could also copy/paste content to filters.
                     </h5>
                     <div class="input-group mb-3">
-                        <input readonly="readonly" type="text" class="form-control"
+                        <input readonly="readonly" type="text" class="form-control filter-url"
                             aria-label="Swachha adblock static filter url"
                             value="https://raw.githubusercontent.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt"
                             aria-describedby="basic-addon2">
@@ -98,6 +98,11 @@
                             <span class="input-group-text" id="basic-addon2">URL</span>
                         </div>
                     </div>
+                    <p class="lead text-muted">
+                        If you need help with adding filter to filter list. Please refer <a
+                            href="https://ads-for-open-source.readthedocs.io/en/latest/installation.html"
+                            target="_blank" rel="noreferrer noopener">docs</a>.
+                    <p>
                 </div>
             </div>
         </div>
@@ -124,7 +129,7 @@
                     If you need help with creating a custom filter. Please refer to the <a
                         href="https://adblockplus.org/filter-cheatsheet" target="_blank" rel="noreferrer noopener">cheat
                         sheet</a>.
-                    <p>
+                <p>
             </div>
         </section>
 
@@ -140,7 +145,15 @@
         </footer>
     </div>
 
-
+    <script>
+        $(document).ready(function () {
+            var filterInputElement = $('input.filter-url');
+            filterInputElement.on('click', function () {
+                var url = $(this).select();
+                document.execCommand('copy');
+            });
+        });
+    </script>
 </body>
 
 </html>
