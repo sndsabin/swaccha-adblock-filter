@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.11
+! Version: 0.1.12
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -118,3 +118,8 @@ www.khelpati.com##.bigyapan-box
 www.khelpati.com##.bigyapan-box
 www.nepalpress.com##.gam-each-ad
 ! ----- END https://www.nepalpress.com -----
+
+
+! ----- START https://nepallive.com -----
+||img.nepallive.de/uploads/bigyaapan/*$image
+! ----- END https://nepallive.com -----
