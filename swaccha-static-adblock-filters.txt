@@ -115,7 +115,6 @@ www.khelpati.com##.bigyapan-box
 ! ----- END https://www.khelpati.com -----
 
 ! ----- START https://www.nepalpress.com -----
-www.khelpati.com##.bigyapan-box
 www.nepalpress.com##.gam-each-ad
 ! ----- END https://www.nepalpress.com -----
 
