@@ -121,3 +121,7 @@ www.nepalpress.com##.gam-each-ad
 ! ----- START https://nepallive.com -----
 ||img.nepallive.de/uploads/bigyaapan/*$image
 ! ----- END https://nepallive.com -----
+
+! ----- START www.sharesansar.com -----
+www.sharesansar.com##.advsTrack
+! ----- END www.sharesansar.com -----
