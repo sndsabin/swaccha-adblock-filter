@@ -127,6 +127,6 @@ www.sharesansar.com##.advsTrack
 ! ----- END www.sharesansar.com -----
 
 ! ----- START www.techpana.com -----
-techpana.com##section.widget
-techpana.com##.tech-pana-ads > a > img
+techpana.com##section.widget > a > img
+techpana.com##.tech-pana-ads
 ! ----- END www.techpana.com -----
