@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.12
+! Version: 0.1.13
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -130,3 +130,17 @@ www.sharesansar.com##.advsTrack
 techpana.com##section.widget > a > img
 techpana.com##.tech-pana-ads
 ! ----- END www.techpana.com -----
+
+! ----- START https://lokaantar.com -----
+lokaantar.com##.bigyapan-gif-gallery
+lokaantar.com##.bottomStickAd
+lokaantar.com##.bigyapan-title
+! ----- END https://lokaantar.com -----
+
+! ----- START https://www.osnepal.com -----
+www.osnepal.com##.ads
+! ----- END https://www.osnepal.com -----
+
+! ----- START https://thahakhabar.com -----
+thahakhabar.com##.bigyapan-gif-gallery
+! ----- END https://thahakhabar.com -----
