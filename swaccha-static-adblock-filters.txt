@@ -146,5 +146,5 @@ thahakhabar.com##.bigyapan-gif-gallery
 ! ----- END https://thahakhabar.com -----
 
 ! ----- START https://www.hamropatro.com/ -----
-||creative.hamropatro.com/img/
+||creative.hamropatro.com/img/*$image
 ! ----- END https://www.hamropatro.com/ -----
