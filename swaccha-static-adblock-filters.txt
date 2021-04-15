@@ -62,10 +62,7 @@ neplays.com##div[itemtype^="https://schema.org/WPAdBlock"]
 ! ----- END https://www.neplays.com -----
 
 ! ----- START https://www.hamrokhelkud.com -----
-hamrokhelkud.com##div.mom-e3lan
-hamrokhelkud.com##div.widget_text.widget:nth-of-type(2) > .textwidget
-hamrokhelkud.com##div.widget_text.widget:nth-of-type(3)
-hamrokhelkud.com##.secondary-sidebar.sidebar > .widget_text.widget
+||www.hamrokhelkud.com/wp-content/uploads/*.gif$image
 ! ----- END https://www.hamrokhelkud.com -----
 
 ! ----- START https://www.himalkhabar.com -----
