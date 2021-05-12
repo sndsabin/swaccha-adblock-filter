@@ -147,10 +147,9 @@ thahakhabar.com##.bigyapan-gif-gallery
 ! ----- END https://www.hamropatro.com/ -----
 
 ! ----- START https://www.gadgetbytenepal.com -----
-www.gadgetbytenepal.com###vianet_ad
-||www.gadgetbytenepal.com/wp-content/uploads/2021/05/benco-ad-scaled.jpg$image
+www.gadgetbytenepal.com##div[id*="_ad"]
 ! ----- END https://www.gadgetbytenepal.com -----
 
 ! ----- START https://www.prasashan.com -----
-www.prasashan.com##section.widget
+www.prasashan.com##section.widget img
 ! ----- END https://www.prasashan.com -----
