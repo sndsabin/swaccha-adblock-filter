@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.14
+! Version: 0.1.15
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -24,6 +24,7 @@ www.onlinekhabar.com##.ok_roadblock
 ||assets-cdn.kantipurdaily.com/uploads/source/ads/*$image
 ekantipur.com##div.kdaily-high-ad
 ###roadblock-ad
+ekantipur.com##.daraz-sponser
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
