@@ -114,6 +114,7 @@ www.khelpati.com##.bigyapan-box
 
 ! ----- START https://www.nepalpress.com -----
 www.nepalpress.com##.gam-each-ad
+www.nepalpress.com##.is-full-widescreen-ad
 ! ----- END https://www.nepalpress.com -----
 
 ! ----- START https://nepallive.com -----
