@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.15
+! Version: 0.1.16
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -157,3 +157,15 @@ www.gadgetbytenepal.com##div[id*="_ad"]
 ! ----- START https://www.prasashan.com -----
 www.prasashan.com##section.widget img
 ! ----- END https://www.prasashan.com -----
+
+! ----- START https://ujyaaloonline.com -----
+ujyaaloonline.com##.ad
+! ----- END https://ujyaaloonline.com -----
+
+! ----- START https://mediadabali.com/ -----
+mediadabali.com##.ads
+! ----- END https://mediadabali.com/ -----
+
+! ----- START https://www.reportersnepal.com/ -----
+www.reportersnepal.com##.widget > a > img
+! ----- END https://www.reportersnepal.com/ -----
