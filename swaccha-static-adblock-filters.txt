@@ -49,6 +49,7 @@ goalnepal.com##.above-news.adbox.section
 
 ! ----- START https://baahrakhari.com -----
 ||baahrakhari.com/uploads/bigyaapan/*$image
+||img.baahrakhari.de/uploads/bigyaapan/*$image
 ! ----- END https://baahrakhari.com -----
 
 ! ----- START http://annapurnapost.com -----
@@ -89,7 +90,6 @@ techlekh.com##div[id$="_ad"]
 ratopati.com##img[alt^="ad"]
 ratopati.com##div[class*="adalytics_ad"]
 ||ratopati.prixacdn.net/media/*.gif$image
-||bigyapan.hamropatro.com/parchar/*$subdocument
 ! ----- END https://ratopati.com/ -----
 
 ! ----- START https://shilapatra.com -----
@@ -148,6 +148,8 @@ thahakhabar.com##.bigyapan-gif-gallery
 
 ! ----- START https://www.hamropatro.com/ -----
 ||creative.hamropatro.com/img/*$image
+||adsnetwork.hamropatro.com
+||bigyapan.hamropatro.com/parchar/*$subdocument
 ! ----- END https://www.hamropatro.com/ -----
 
 ! ----- START https://www.gadgetbytenepal.com -----
