@@ -37,8 +37,8 @@ pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidde
 ! ----- END https://pahilopost.com -----
 
 ! ----- START https://nepalkhabar.com -----
-||nepalkhabar.com/images/news2019/add/*$image
-nepalkhabar.com##[href^="/component/banners/click"]
+nepalkhabar.com##.nk-sidebar-ads
+||nepalkhabar.prixacdn.net/media/*.gif$image
 ! ----- END https://nepalkhabar.com -----
 
 ! -----START https://goalnepal.com -----
