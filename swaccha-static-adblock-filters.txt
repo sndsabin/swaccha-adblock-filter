@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.18
+! Version: 0.1.19
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -39,6 +39,7 @@ pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidde
 ! ----- START https://nepalkhabar.com -----
 nepalkhabar.com##.nk-sidebar-ads
 ||nepalkhabar.prixacdn.net/media/*.gif$image
+||adalytics.prixacdn.net/media/photos/*$image
 ! ----- END https://nepalkhabar.com -----
 
 ! -----START https://goalnepal.com -----
@@ -50,6 +51,7 @@ goalnepal.com##.above-news.adbox.section
 ! ----- START https://baahrakhari.com -----
 ||baahrakhari.com/uploads/bigyaapan/*$image
 ||img.baahrakhari.de/uploads/bigyaapan/*$image
+baahrakhari.com##.cube-boxs
 ! ----- END https://baahrakhari.com -----
 
 ! ----- START http://annapurnapost.com -----
