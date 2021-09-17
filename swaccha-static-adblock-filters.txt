@@ -78,11 +78,7 @@ gorkhapatraonline.com##div.adds
 ! ----- END https://www.himalkhabar.com -----
 
 ! ----- START https://www.nepalitimes.com -----
-nepalitimes.com##.paid_banner
-nepalitimes.com##div.adv-section
-nepalitimes.com##.about-page-detailing > div.container:nth-of-type(1)
-nepalitimes.com###content > .container
-nepalitimes.com##.nepali-press-section > .container > .row > div.col-sm-4.col-xs-12:nth-of-type(3)
+||www.nepalitimes.com/wp-content/*.gif$image
 ! ----- END https://www.nepalitimes.com -----
 
 ! ----- START https://techlekh.com -----
@@ -107,6 +103,7 @@ www.dcnepal.com##.gam-each-ad
 
 ! ----- START https://kathmandupress.com -----
 ||img.kathmandupress.de/uploads/bigyaapan/*$image
+||kathmandupress.com/uploads/bigyaapan/*$image
 ! ----- END https://kathmandupress.com -----
 
 ! ----- START https://wicketnepal.com/ -----
@@ -119,7 +116,7 @@ www.khelpati.com##.bigyapan-box
 ! ----- END https://www.khelpati.com -----
 
 ! ----- START https://www.nepalpress.com -----
-www.nepalpress.com##.gam-each-ad
+www.nepalpress.com##.gam-each-npad
 www.nepalpress.com##.is-full-widescreen-ad
 ! ----- END https://www.nepalpress.com -----
 
@@ -134,6 +131,7 @@ www.sharesansar.com##.advsTrack
 ! ----- START www.techpana.com -----
 techpana.com##section.widget > a > img
 techpana.com##.tech-pana-ads
+||www.techpana.com/*.gif$image
 ! ----- END www.techpana.com -----
 
 ! ----- START https://lokaantar.com -----
