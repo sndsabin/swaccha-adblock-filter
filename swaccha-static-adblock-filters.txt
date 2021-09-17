@@ -40,6 +40,7 @@ pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidde
 nepalkhabar.com##.nk-sidebar-ads
 ||nepalkhabar.prixacdn.net/media/*.gif$image
 ||adalytics.prixacdn.net/media/photos/*$image
+nepalkhabar.com##.adalytics_ad
 ! ----- END https://nepalkhabar.com -----
 
 ! -----START https://goalnepal.com -----
