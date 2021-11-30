@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.23
+! Version: 0.1.24
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -27,6 +27,7 @@ www.onlinekhabar.com##.ok_roadblock
 ekantipur.com##div.kdaily-high-ad
 ###roadblock-ad
 ekantipur.com##.daraz-sponser
+ekantipur.com##article.sponsored.normal
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
@@ -193,6 +194,29 @@ www.reportersnepal.com##.widget > a > img
 ||ekagaj.com/*.gif$image
 ! ----- END https://ekagaj.com/ -----
 
-! ----- START https://ekagaj.com/ -----
+! ----- START https://ukeraa.com/ -----
 ||www.ukeraa.com/*.gif$image
-! ----- END https://ekagaj.com/ -----
+! ----- END https://ukeraa.com/ -----
+
+! ----- START https://merokhel.com/ -----
+||merokhel.com/*.gif$image
+! ----- END https://merokhel.com/ -----
+
+! ----- START https://koshionline.com/ -----
+www.koshionline.com##.ad-sec
+||www.koshionline.com/wp-content/uploads/*.gif$image
+! ----- END https://koshionline.com/ -----
+
+! ----- START https://dainiki.com/ -----
+||www.dainiki.com/wp-content/uploads/*.gif$image
+! ----- END https://dainiki.com/ -----
+
+! ----- START https://sancharkendra.com/ -----
+sancharkendra.com##.addb
+sancharkendra.com##.skada
+||sancharkendra.com/wp-content/uploads/*.gif$image
+! ----- END https://sancharkendra.com/ -----
+
+! ----- START https://ktmdainik.com/ -----
+||ktmdainik.com/*.gif$image
+! ----- END https://ktmdainik.com/ -----
