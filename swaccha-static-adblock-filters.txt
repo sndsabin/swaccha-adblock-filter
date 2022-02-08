@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.24
+! Version: 0.1.25
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -16,6 +16,7 @@ www.setopati.com###inner-jacket
 www.setopati.com##.desktop-bigyaapan-only
 www.setopati.com##.mobile-bigyaapan-only
 www.setopati.com##.desktop-bottom-bigyaapan-only
+www.setopati.com##.desktop-featured-bigyaapan.bigyaapan-item.media
 ! ----- END https://www.setopati.com -----
 
 ! ----- START https://www.onlinekhabar.com -----
@@ -193,6 +194,7 @@ www.reportersnepal.com##.widget > a > img
 
 ! ----- START https://ekagaj.com/ -----
 ||ekagaj.com/*.gif$image
+ekagaj.com##.wrapper-box
 ! ----- END https://ekagaj.com/ -----
 
 ! ----- START https://ukeraa.com/ -----
