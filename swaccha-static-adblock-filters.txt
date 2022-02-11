@@ -223,3 +223,8 @@ sancharkendra.com##.skada
 ! ----- START https://ktmdainik.com/ -----
 ||ktmdainik.com/*.gif$image
 ! ----- END https://ktmdainik.com/ -----
+
+! ----- START https://hamrobazaar.com/ -----
+||hamrobazaar.com/sponsered/*$image
+hamrobazaar.com##.overlay
+! ----- END https://hamrobazaar.com/ -----
