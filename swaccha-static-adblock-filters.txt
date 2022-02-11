@@ -13,6 +13,7 @@
 ||img.setopaty.com/uploads/bigyaapan/*$image
 www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
+www.setopati.com##.col-md-12.full-bigyaapan
 www.setopati.com##.desktop-bigyaapan-only
 www.setopati.com##.mobile-bigyaapan-only
 www.setopati.com##.desktop-bottom-bigyaapan-only
@@ -223,3 +224,8 @@ sancharkendra.com##.skada
 ! ----- START https://ktmdainik.com/ -----
 ||ktmdainik.com/*.gif$image
 ! ----- END https://ktmdainik.com/ -----
+
+! ----- START https://purbelinews.com/ -----
+purbelinews.com##.below-menu-ads
+purbelinews.com##.before-content-ads
+! ----- END https://purbelinews.com/ -----
