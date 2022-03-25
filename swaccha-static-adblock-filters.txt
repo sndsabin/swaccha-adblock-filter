@@ -19,6 +19,7 @@ www.setopati.com##div[class*="bigyaapan"]
 ! ----- START https://www.onlinekhabar.com -----
 www.onlinekhabar.com##.okam-each-ad
 www.onlinekhabar.com##.ok_roadblock
+www.onlinekhabar.com###ok-box-ad-wrap
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://ekantipur.com -----
