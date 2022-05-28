@@ -226,3 +226,11 @@ sancharkendra.com##.skada
 ||hamrobazaar.com/sponsered/*$image
 hamrobazaar.com##.overlay
 ! ----- END https://hamrobazaar.com/ -----
+
+! ----- START https://bizmandu.com/ -----
+||bizmandu.com/##div[class*="-ad"]
+||bizmandu.com##div[class*="uk-block"]
+||www.bizmandu.com/assets/upload/advertise/*.gif$image
+||www.bizmandu.com/assets/upload/sidead/*.gif$image
+||www.bizmandu.com/assets/upload/midbanner/*.gif$image
+! ----- END https://hamrobazaar.com/ -----
