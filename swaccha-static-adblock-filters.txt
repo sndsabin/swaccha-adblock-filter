@@ -238,3 +238,8 @@ bizmandu.com/##div[class*="-ad"]
 ! ----- START https://bizkhabar.com/ -----
 ||i*.wp.com/www.bizkhabar.com/wp-content/uploads/*.gif$image
 ! ----- END https://bizkhabar.com/ -----
+
+! ----- START https://https://purbelinews.com/ -----
+purbelinews.com##div[class*="ads"]
+purbelinews.com##section[id^="widget_sp_image-"]
+! ----- END https://https://purbelinews.com/ -----
