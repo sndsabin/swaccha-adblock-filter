@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.28
+! Version: 0.1.29
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -243,3 +243,7 @@ bizmandu.com/##div[class*="-ad"]
 purbelinews.com##div[class*="ads"]
 purbelinews.com##section[id^="widget_sp_image-"]
 ! ----- END https://https://purbelinews.com/ -----
+
+! ----- START https://https://nagariknetwork.com/ -----
+nagariknetwork.com##div[id*="adverts"]
+! ----- END https://https://nagariknetwork.com/ -----
