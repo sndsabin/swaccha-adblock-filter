@@ -254,7 +254,7 @@ nagariknetwork.com##div[id*="adverts"]
 
 ! ----- START https://samadhannews.com -----
 ||samadhannews.com/wp-content/uploads/*.gif$image
-! ----- END https://www.educatenepal.com -----
+! ----- END https://www.samadhannews.com -----
 
 ! ----- START https://www.eadarsha.com -----
 ||*eadarsha.com/wp-content/*.gif$image
@@ -263,4 +263,4 @@ nagariknetwork.com##div[id*="adverts"]
 ! ----- START https://bankingkhabar.com -----
 bankingkhabar.com##div[class*="add"]
 .gif^$domain=bankingkhabar.com,image
-! ----- END https://www.educatenepal.com -----
+! ----- END https://www.bankingkhabar.com -----
