@@ -246,34 +246,21 @@ purbelinews.com##section[id^="widget_sp_image-"]
 
 ! ----- START https://nagariknetwork.com/ -----
 nagariknetwork.com##div[id*="adverts"]
-nagariknews.nagariknetwork.com##.creatives-link.mt-3.desktop-notice.notice
-nagariknews.nagariknetwork.com##.position-relative.creatives-link
 ! ----- END https://https://nagariknetwork.com/ -----
-
-! ----- START https://www.ratopati.com -----
-www.ratopati.com##div.detailbannerAd.paraAd.row
-www.ratopati.com##.paraAd.flex-paraAd
-www.ratopati.com##.article-head > div.col-md-12
-www.ratopati.com##.col-md-3 > div.row
-! ----- END https://www.ratopati.com -----
 
 ! ----- START https://www.surakshyanews.com -----
 ||www.surakshyanews.com/uploads/bigyapan/*$image
 ! ----- END https://www.surakshyanews.com -----
 
-! ----- START https://samadhannews.com
+! ----- START https://samadhannews.com -----
 ||samadhannews.com/wp-content/uploads/*.gif$image
-! ----- END https://www.educatenepal.com
+! ----- END https://www.educatenepal.com -----
 
-! ----- START https://www.eadarsha.com
-||i1.wp.com/www.eadarsha.com/wp-content/uploads/*.gif$image
-! ----- END https://www.educatenepal.com
+! ----- START https://www.eadarsha.com -----
+||*eadarsha.com/wp-content/*.gif$image
+! ----- END https://www.educatenepal.com -----
 
-! ----- START https://bankingkhabar.com
+! ----- START https://bankingkhabar.com -----
+bankingkhabar.com##div[class*="add"]
 .gif^$domain=bankingkhabar.com,image
-! ----- END https://www.educatenepal.com
-
-! ----- START https://www.educatenepal.com
-||www.educatenepal.com/Images/banners/16*college-*0.gif$image
-.gif^$domain=educatenepal.com,image
-! ----- END https://www.educatenepal.com
+! ----- END https://www.educatenepal.com -----
