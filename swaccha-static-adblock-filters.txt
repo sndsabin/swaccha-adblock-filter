@@ -232,8 +232,9 @@ hamrobazaar.com##.topBanner
 ! ----- END https://hamrobazaar.com/ -----
 
 ! ----- START https://bizmandu.com/ -----
-bizmandu.com/##div[class*="-ad"]
+bizmandu.com##div[class*="-ad"]
 ||bizmandu.com/assets/upload/*.gif$image
+||bizmandu.com/assets/upload/advertise/
 ! ----- END https://bizmandu.com/ -----
 
 ! ----- START https://bizkhabar.com/ -----
