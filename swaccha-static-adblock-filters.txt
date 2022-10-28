@@ -29,6 +29,7 @@ ekantipur.com##div.kdaily-high-ad
 ekantipur.com##.daraz-sponser
 ekantipur.com##article.sponsored.normal
 ekantipur.com##.sticky--bottom
+ekantipur.com##.static-sponsor
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
