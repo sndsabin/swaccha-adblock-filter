@@ -267,3 +267,9 @@ nagariknetwork.com##div[id*="adverts"]
 bankingkhabar.com##div[class*="add"]
 .gif^$domain=bankingkhabar.com,image
 ! ----- END https://www.bankingkhabar.com -----
+
+! ----- START https://arthasarokar.com -----
+||arthasarokar.com/*.gif
+arthasarokar.com##.custom-ad-link
+arthasarokar.com##.twin-ad-wrapper
+! ----- END https://arthasarokar.com -----
