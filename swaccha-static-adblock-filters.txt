@@ -30,6 +30,7 @@ ekantipur.com##.daraz-sponser
 ekantipur.com##article.sponsored.normal
 ekantipur.com##.sticky--bottom
 ekantipur.com##.static-sponsor
+ekantipur.com##.box-sponsored
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
