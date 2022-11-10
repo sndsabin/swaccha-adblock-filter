@@ -19,6 +19,7 @@ www.setopati.com##div[class*="bigyaapan"]
 ! ----- START https://www.onlinekhabar.com -----
 www.onlinekhabar.com##.ok_roadblock
 www.onlinekhabar.com##div[class*="-ad"]
+www.onlinekhabar.com###ok-box-ad-wrap
 ||www.nepalhomes.com/*.html$subdocument
 ! ----- END https://www.onlinekhabar.com -----
 
