@@ -32,6 +32,7 @@ ekantipur.com##article.sponsored.normal
 ekantipur.com##.sticky--bottom
 ekantipur.com##.static-sponsor
 ekantipur.com##.box-sponsored
+ekantipur.com##.sponsor-mobile
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
