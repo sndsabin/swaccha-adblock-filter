@@ -9,8 +9,8 @@
 ! Repo: https://github.com/sndsabin/swaccha-adblock-filter
 
 ! ----- START https://www.setopati.com -----
-||img.setopati.com/uploads/bigyapan/*$image
-||img.setopaty.com/uploads/bigyaapan/*$image
+||img.setopati.com/uploads/bigyapan/
+||img.setopaty.com/uploads/bigyaapan/
 www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
 www.setopati.com##div[class*="bigyaapan"]
@@ -21,6 +21,7 @@ www.onlinekhabar.com##.ok_roadblock
 www.onlinekhabar.com##div[class*="-ad"]
 www.onlinekhabar.com###ok-box-ad-wrap
 ||www.nepalhomes.com/*.html$subdocument
+||election.onlinekhabar.com/wp-content/uploads/*.gif
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://ekantipur.com -----
