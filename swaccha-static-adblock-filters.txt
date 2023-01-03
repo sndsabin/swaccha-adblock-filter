@@ -14,6 +14,7 @@
 www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
 www.setopati.com##div[class*="bigyaapan"]
+www.setopati.com##.mobile-fixed-ad
 ! ----- END https://www.setopati.com -----
 
 ! ----- START https://www.onlinekhabar.com -----
