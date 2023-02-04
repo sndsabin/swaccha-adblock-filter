@@ -100,6 +100,7 @@ ratopati.com##img[alt^="ad"]
 ratopati.com##div[class*="adalytics_ad"]
 ||ratopati.prixacdn.net/media/*.gif$image
 ||ratopatis.prixacdn.net/media/*.gif$image
+||npratopaticdn.prixacdn.net/media/promo/
 ! ----- END https://ratopati.com/ -----
 
 ! ----- START https://shilapatra.com -----
