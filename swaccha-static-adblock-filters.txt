@@ -242,6 +242,10 @@ hamrobazaar.com##.topBanner
 bizmandu.com##div[class*="-ad"]
 ||bizmandu.com/assets/upload/*.gif$image
 ||bizmandu.com/assets/upload/advertise/
+bizmandu.com##.banner
+bizmandu.com##.roadblock
+bizmandu.com##.bigyapan-inside-content
+bizmandu.com##section.banner-bigyapan
 ! ----- END https://bizmandu.com/ -----
 
 ! ----- START https://bizkhabar.com/ -----
