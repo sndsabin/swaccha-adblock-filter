@@ -280,3 +280,15 @@ bankingkhabar.com##div[class*="add"]
 arthasarokar.com##.custom-ad-link
 arthasarokar.com##.twin-ad-wrapper
 ! ----- END https://arthasarokar.com -----
+
+! ----- START https://www.karobardaily.com -----
+www.karobardaily.com##.show.modal-load.fade.modal
+www.karobardaily.com##.show.fade.modal-backdrop
+www.karobardaily.com##div.col-md-12 > .mb-2 > section.widget
+www.karobardaily.com##div.mb-2:nth-of-type(2)
+www.karobardaily.com##div.mb-2:nth-of-type(4)
+www.karobardaily.com##.text-center > section.widget
+www.karobardaily.com##section.widget:nth-of-type(2)
+www.karobardaily.com##section.widget:nth-of-type(3)
+www.karobardaily.com##section.widget:nth-of-type(1)
+! ----- END https://www.karobardaily.com -----
