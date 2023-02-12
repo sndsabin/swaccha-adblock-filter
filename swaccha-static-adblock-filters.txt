@@ -280,3 +280,8 @@ bankingkhabar.com##div[class*="add"]
 arthasarokar.com##.custom-ad-link
 arthasarokar.com##.twin-ad-wrapper
 ! ----- END https://arthasarokar.com -----
+
+! ----- START https://nagariknews.nagariknetwork.com -----
+||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
+nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-dismissible.alert
+! ----- END https://nagariknews.nagariknetwork.com -----
