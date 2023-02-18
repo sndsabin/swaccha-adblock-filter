@@ -256,6 +256,8 @@ purbelinews.com##section[id^="widget_sp_image-"]
 
 ! ----- START https://nagariknetwork.com/ -----
 nagariknetwork.com##div[id*="adverts"]
+||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
+nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-dismissible.alert
 ! ----- END https://https://nagariknetwork.com/ -----
 
 ! ----- START https://www.surakshyanews.com -----
@@ -281,7 +283,3 @@ arthasarokar.com##.custom-ad-link
 arthasarokar.com##.twin-ad-wrapper
 ! ----- END https://arthasarokar.com -----
 
-! ----- START https://nagariknews.nagariknetwork.com -----
-||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
-nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-dismissible.alert
-! ----- END https://nagariknews.nagariknetwork.com -----
