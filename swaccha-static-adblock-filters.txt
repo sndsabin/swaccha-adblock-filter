@@ -286,6 +286,7 @@ arthasarokar.com##.twin-ad-wrapper
 
 ! ----- START https://kathmandukhabar.com -----
 ||kathmandukhabar.com/uploads/advertisement/
+kathmandukhabar.com##div.banner.container:nth-of-type(4)
 ! ----- END https://kathmandukhabar.com -----
 
 
