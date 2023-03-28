@@ -284,3 +284,8 @@ arthasarokar.com##.custom-ad-link
 arthasarokar.com##.twin-ad-wrapper
 ! ----- END https://arthasarokar.com -----
 
+! ----- START https://kathmandukhabar.com -----
+||kathmandukhabar.com/uploads/advertisement/
+! ----- END https://kathmandukhabar.com -----
+
+
