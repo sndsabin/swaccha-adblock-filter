@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.32
+! Version: 0.1.33
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -96,11 +96,7 @@ techlekh.com##div[id$="_ad"]
 ! ----- END https://techlekh.com -----
 
 ! ----- START https://ratopati.com/ -----
-ratopati.com##img[alt^="ad"]
-ratopati.com##div[class*="adalytics_ad"]
-||ratopati.prixacdn.net/media/*.gif$image
-||ratopatis.prixacdn.net/media/*.gif$image
-||npratopaticdn.prixacdn.net/media/promo/
+www.ratopati.com##.adv-item
 ! ----- END https://ratopati.com/ -----
 
 ! ----- START https://shilapatra.com -----
