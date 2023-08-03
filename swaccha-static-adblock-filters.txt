@@ -430,6 +430,10 @@ bizmandu.com##div[class*="-ad"]
 ||bizmandu.com/assets/upload/advertise/
 bizmandu.com##section.banner-bigyapan
 bizmandu.com##.bigyapan-inside-content
+bizmandu.com##.sidebar-advs
+bizmandu.com##.bigyapan-inside-content
+bizmandu.com##.sideblock-margin.sidebar-advs
+bizmandu.com##.banner-img
 ! ----- END https://bizmandu.com/ -----
 
 ! ----- START https://bizkhabar.com/ -----
