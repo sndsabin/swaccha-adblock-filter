@@ -127,6 +127,16 @@ nepalkhabar.com##.uk-text-center.bannergroup > .uk-text-center > .banneritem
 ||nepalkhabar.prixacdn.net/media/*.gif$image
 nepalkhabar.com##.paraAd.flex-paraAd
 nepalkhabar.com##.uk-modal-dialog > .uk-flex-center.uk-flex-middle.uk-flex
+nepalkhabar.com##.home_ad_below_menu_banneritem.banneritem
+nepalkhabar.com##.nk-homepage > .uk-padding-remove.uk-section-xsmall.uk-section
+nepalkhabar.com##.uk-padding-remove-vertical.uk-section-xsmall.uk-section.uk-section-small > .uk-container > .uk-grid-stack.uk-grid.uk-grid-margin > .uk-first-column.uk-text-center.uk-width-1-1\@m > .uk-text-center.uk-margin-top.bannergroup > .uk-text-center > .banneritem
+nepalkhabar.com##.nk-homepage > .uk-panel.bannergroup > .uk-text-center.uk-margin.nk-sidebar-ads
+nepalkhabar.com##.selecting__second-child.banneritem > [href] > .uk-visible\@s
+nepalkhabar.com###body-content > .uk-panel.uk-margin-medium.no-lazy.bannergroup
+nepalkhabar.com##.selecting__second-child.banneritem
+nepalkhabar.com##.uk-text-center.cnc-article-after-image
+nepalkhabar.com##.uk-first-column.uk-grid-margin.uk-text-left.uk-text-right\@s.uk-width-1-2\@m > .flex__count.uk-clearfix > .share-count
+nepalkhabar.com##.uk-clearfix.uk-margin-bottom.uk-margin-medium-top > .flex__count.uk-clearfix
 ! ----- END https://nepalkhabar.com -----
 
 ! -----START https://goalnepal.com -----
