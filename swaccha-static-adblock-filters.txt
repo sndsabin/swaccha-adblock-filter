@@ -32,6 +32,11 @@ www.setopati.com##.container > div.desktop-bigyaapan-only.section > .container >
 www.setopati.com##div.desktop-bigyaapan-only.bigyaapan-item.items:nth-of-type(3)
 www.setopati.com##div.desktop-bigyaapan-only.bigyaapan-item.media
 ||www.setopati.com/uploads/bigyaapan/*$image
+www.setopati.com##.desktop-jacket-bigyaapan.modalbox
+www.setopati.com##div.insert-ad:nth-of-type(1)
+www.setopati.com##.container > div.desktop-bigyaapan-only.section > .container > .row > .col-md-12.full-bigyaapan
+||www.setopati.com/uploads/bigyaapan/*00.gif$image
+www.setopati.com##.mobile-jacket-bigyaapan.modalbox
 ! ----- END https://www.setopati.com -----
 
 ! ----- START https://www.onlinekhabar.com -----
