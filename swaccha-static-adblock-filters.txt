@@ -511,6 +511,17 @@ ins.news##.elementor-widget-image.elementor-widget.elementor-element-a1d7dca.ele
 ins.news##.elementor-widget-image.elementor-widget.elementor-element-5abb699.elementor-element > .elementor-widget-container
 ! ----- END https://ins.news/ -----
 
+! ----- START https://hamrakura.com/ -----
+! 2023-08-03 https://hamrakura.com
+hamrakura.com##.container > .d-block > .adv_for--desktop.adv
+hamrakura.com##a[href^="https://www.facebook.com/photo/"] > .adv_for--mobile.adv
+hamrakura.com##[href="https://www.machbank.com/"] > .adv_for--mobile.adv
+hamrakura.com##.mb-3.banner
+hamrakura.com##.mb-2.banner-small.banner > a.d-block > .adv_for--desktop.adv
+! ----- END https://hamrakura.com/ -----
+
+
+
 
 
 
