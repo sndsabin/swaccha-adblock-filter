@@ -133,6 +133,7 @@ www.nepalpress.com##.is-full-widescreen-ad
 
 ! ----- START www.sharesansar.com -----
 www.sharesansar.com##.advsTrack
+||content.sharesansar.com/photos/shares/advertisement$image
 ! ----- END www.sharesansar.com -----
 
 ! ----- START www.techpana.com -----
@@ -164,6 +165,8 @@ thahakhabar.com##.bigyapan-gif-gallery
 www.gadgetbytenepal.com###darazAd
 www.gadgetbytenepal.com##img[alt*="Ad"]
 www.gadgetbytenepal.com##div[id*="_ad"]
+www.gadgetbytenepal.com##.wppopups-whole
+www.gadgetbytenepal.com##.disable-lazyload
 ! ----- END https://www.gadgetbytenepal.com -----
 
 ! ----- START https://www.prasashan.com -----
@@ -299,4 +302,18 @@ www.karobardaily.com##section.widget:nth-of-type(1)
 www.karobardaily.com##section.widget
 ! ----- END https://www.karobardaily.com -----
 
+! ----- START https://merolagani.com -----
+||images.merolagani.com//content/bigyapan$image
+! ----- END https://merolagani.com -----
+
+! ----- START https://nepsealpha.com -----
+nepsealpha.com##.placeholder
+||nepsealpha.com/uploads/*$image
+nepsealpha.com##.border-danger.border.text-center.justify-content-center.d-flex.card
+! ----- END https://nepsealpha.com -----
+
+! ----- START https://www.gadgetsinnepal.com.np -----
+www.gadgetsinnepal.com.np##.td-pb-span8.tdc-column.vc_column_container.wpb_column.tdi_54.vc_column
+www.gadgetsinnepal.com.np##.td_spot_img_all > .lazyloaded.entered
+! ----- END https://www.gadgetsinnepal.com.np -----
 
