@@ -8,6 +8,15 @@
 ! Please feel free to open an issue or contribute
 ! Repo: https://github.com/sndsabin/swaccha-adblock-filter
 
+! ----- START generic bigyaapan catch-alls -----
+||*bigyaapan*^
+||*bigyapan*^
+!*##section[class*="bigyaapan"]
+!*##section[class*="bigyapan"]
+*##*[class*="bigyaapan"]
+*##*[class*="bigyapan"]
+! ----- END generic bigyaapan catch-alls -----
+
 ! ----- START https://www.setopati.com -----
 ||img.setopati.com/uploads/bigyapan/
 ||img.setopaty.com/uploads/bigyaapan/
