@@ -11,8 +11,8 @@
 ! ----- START generic bigyaapan catch-alls -----
 ||*bigyaapan*^
 ||*bigyapan*^
-!*##section[class*="bigyaapan"]
-!*##section[class*="bigyapan"]
+*##section[class*="bigyaapan"]
+*##section[class*="bigyapan"]
 *##*[class*="bigyaapan"]
 *##*[class*="bigyapan"]
 ! ----- END generic bigyaapan catch-alls -----
