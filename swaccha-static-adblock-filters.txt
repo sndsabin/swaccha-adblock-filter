@@ -23,6 +23,16 @@ www.onlinekhabar.com##div[class*="-ad"]
 www.onlinekhabar.com###ok-box-ad-wrap
 ||www.nepalhomes.com/*.html$subdocument
 ||election.onlinekhabar.com/wp-content/uploads/*.gif
+||www.onlinekhabar.com/wp-content/uploads/*/*/*.gif$image
+www.onlinekhabar.com##div.ok-details-adv-in-left:nth-of-type(1)
+www.onlinekhabar.com##.flex-box.tribox-add.colspan3
+www.onlinekhabar.com##.okam-device-mobile.single-top-header-mb.okam-ad-position-wrap
+www.onlinekhabar.com##.okam-device-mobile.home-top-header-mb.okam-ad-position-wrap
+www.onlinekhabar.com##.okam-device-mobile.home-after-main-menu-mobile.okam-ad-position-wrap
+www.onlinekhabar.com##.okam-device-mobile.single-full-after-menu-mobile.okam-ad-position-wrap
+www.onlinekhabar.com##.okam-device-mobile.singlenews-afteremoji-mobile.okam-ad-position-wrap
+www.onlinekhabar.com##.okam-device-mobile.single-after-news2-mobile.okam-ad-position-wrap
+www.onlinekhabar.com##.nh_widget_wrap
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://ekantipur.com -----
