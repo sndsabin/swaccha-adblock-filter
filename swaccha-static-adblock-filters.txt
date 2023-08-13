@@ -40,6 +40,8 @@ ekantipur.com##.sponsor-mobile
 ekantipur.com##.daraz-dynamic.daraz-sponser
 ||assets-cdn.kantipurdaily.com/uploads/source/ads/*.jpg$image
 ekantipur.com##.sticky--bottom__show.sticky--bottom
+ekantipur.com##.sticky--bottom__show.sticky--bottom
+ekantipur.com##.js_smartbanner.smartbanner--ios.smartbanner
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
