@@ -304,6 +304,9 @@ www.karobardaily.com##section.widget
 www.lokaantar.com##.pt-50.ad
 www.lokaantar.com##.center-aligned-ad.row
 www.lokaantar.com##div.paraAd.flex-paraAd
+lokaantar.com##.center-aligned-ad.row
+lokaantar.com##.pt-50.ad
+lokaantar.com##div.paraAd.flex-paraAd
 ! ----- END https://www.lokaantar.com/ -----
 
 
