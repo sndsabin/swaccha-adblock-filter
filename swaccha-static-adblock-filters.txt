@@ -301,12 +301,8 @@ www.karobardaily.com##section.widget
 
 ! ----- START https://www.lokaantar.com/ -----
 ||lktcdn.prixacdn.net/media/*.gif$image
-www.lokaantar.com##.pt-50.ad
-www.lokaantar.com##.center-aligned-ad.row
-www.lokaantar.com##div.paraAd.flex-paraAd
-lokaantar.com##.center-aligned-ad.row
-lokaantar.com##.pt-50.ad
-lokaantar.com##div.paraAd.flex-paraAd
+www.lokaantar.com,lokaantar.com##.paraAd
+www.lokaantar.com,lokaantar.com##.ad-banner
 ! ----- END https://www.lokaantar.com/ -----
 
 
