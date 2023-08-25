@@ -299,4 +299,10 @@ www.karobardaily.com##section.widget:nth-of-type(1)
 www.karobardaily.com##section.widget
 ! ----- END https://www.karobardaily.com -----
 
+! ----- START https://www.lokaantar.com/ -----
+||lktcdn.prixacdn.net/media/*.gif$image
+www.lokaantar.com,lokaantar.com##.paraAd
+www.lokaantar.com,lokaantar.com##.ad-banner
+! ----- END https://www.lokaantar.com/ -----
+
 
