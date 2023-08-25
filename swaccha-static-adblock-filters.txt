@@ -36,11 +36,7 @@ ekantipur.com##.static-sponsor
 ekantipur.com##.box-sponsored
 ekantipur.com##.sponsor-mobile
 ||election.ekantipur.com/sponsored/
-||assets-cdn.kantipurdaily.com/uploads/source/ads/*.gif$image
-ekantipur.com##.daraz-dynamic.daraz-sponser
-||assets-cdn.kantipurdaily.com/uploads/source/ads/*.jpg$image
-ekantipur.com##.sticky--bottom__show.sticky--bottom
-ekantipur.com##.js_smartbanner.smartbanner--ios.smartbanner
+ekantipur.com##.js_smartbanner
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
