@@ -63,6 +63,7 @@ goalnepal.com##.above-news.adbox.section
 ! ----- START https://baahrakhari.com -----
 ||baahrakhari.com/uploads/bigyaapan/*$image
 ||img.baahrakhari.de/uploads/bigyaapan/*$image
+||12khari.de/uploads/bigyaapan/*$image
 baahrakhari.com##.cube-boxs
 ! ----- END https://baahrakhari.com -----
 
