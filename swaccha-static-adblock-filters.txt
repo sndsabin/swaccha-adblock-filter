@@ -308,3 +308,7 @@ www.lokaantar.com,lokaantar.com##.ad-banner
 ! ----- END https://www.lokaantar.com/ -----
 
 
+! ----- START https://www.nayapatrikadaily.com/ -----
+nayapatrikadaily.com##.details-advdesktop
+! ----- END https://www.nayapatrikadaily.com/ -----
+
