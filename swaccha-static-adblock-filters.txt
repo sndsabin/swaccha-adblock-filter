@@ -37,6 +37,7 @@ ekantipur.com##.box-sponsored
 ekantipur.com##.sponsor-mobile
 ||election.ekantipur.com/sponsored/
 ekantipur.com##.js_smartbanner
+||assets-cdn.ekantipur.com/uploads/source/ads/*$image
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
