@@ -25,6 +25,11 @@ www.onlinekhabar.com###ok-box-ad-wrap
 ||election.onlinekhabar.com/wp-content/uploads/*.gif
 ! ----- END https://www.onlinekhabar.com -----
 
+
+! ----- START https://english.onlinekhabar.com -----
+english.onlinekhabar.com##.add__fullwidth
+! ----- END https://english.onlinekhabar.com -----
+
 ! ----- START https://ekantipur.com -----
 ||assets-cdn.kantipurdaily.com/uploads/source/ads/*$image
 ekantipur.com##div.kdaily-high-ad
