@@ -75,6 +75,8 @@ baahrakhari.com##.cube-boxs
 
 ! ----- START http://annapurnapost.com -----
 annapurnapost.com##div.advertisement
+annapurnapost.com##div.ap__fwBigyapan:nth-of-type(n)
+annapurnapost.com##.custom-container > .bigyapan
 ! ----- END http://annapurnapost.com -----
 
 ! ----- START https://gorkhapatraonline.com -----
@@ -241,6 +243,7 @@ hamrobazaar.com##.overlay
 hamrobazaar.com##.inBetweenAds
 hamrobazaar.com##.topBanner
 ||hamrobazaar.blr1.cdn.digitaloceanspaces.com/feature_ads/*$object
+hamrobazaar.com##div.mobInfeedGAds:nth-of-type(n)
 ! ----- END https://hamrobazaar.com/ -----
 
 ! ----- START https://bizmandu.com/ -----
@@ -249,6 +252,8 @@ bizmandu.com##div[class*="-ad"]
 ||bizmandu.com/assets/upload/advertise/
 bizmandu.com##section.banner-bigyapan
 bizmandu.com##.bigyapan-inside-content
+bizmandu.com##.banner
+bizmandu.com##section.banner-bigyapan:nth-of-type(n)
 ! ----- END https://bizmandu.com/ -----
 
 ! ----- START https://bizkhabar.com/ -----
@@ -314,8 +319,26 @@ www.lokaantar.com,lokaantar.com##.paraAd
 www.lokaantar.com,lokaantar.com##.ad-banner
 ! ----- END https://www.lokaantar.com/ -----
 
-
 ! ----- START https://www.nayapatrikadaily.com/ -----
 nayapatrikadaily.com##.details-advdesktop
 ! ----- END https://www.nayapatrikadaily.com/ -----
+
+! ----- START https://login.connectips.com/#/login -----
+login.connectips.com##.my-2.home-advertisment
+login.connectips.com##.dropdown.btn-group-sm.dropup.mt-4.card-advertisement
+login.connectips.com##.mt-4.slider-right.card-advertisement > .slick-initialized.slick-slider > .slick-list
+! ----- END https://login.connectips.com/#/login -----
+
+! ----- START https://arthikpage.com -----
+||arthikpage.com/wp-content/uploads/*.gif$image
+arthikpage.com##.top__header__ads
+arthikpage.com##div.banner__ads:nth-of-type(n)
+arthikpage.com##.sidebar__ads
+arthikpage.com##.row > .posts__banner__ads
+! ----- END https://arthikpage.com -----
+
+! ----- START https://merolagani.com -----
+merolagani.com###ctl00_ContentPlaceHolder1_AdvertisementB1_divGeneral
+merolagani.com##div.visible-desktop-ad.col-md-3.col-sm-12:nth-of-type(n)
+! ----- END https://merolagani.com -----
 
