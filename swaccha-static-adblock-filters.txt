@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.98
+! Version: 0.1.99
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -74,9 +74,9 @@ baahrakhari.com##.cube-boxs
 ! ----- END https://baahrakhari.com -----
 
 ! ----- START http://annapurnapost.com -----
+||annapurnapost.prixacdn.net/media/advert/*$image
 annapurnapost.com##div.advertisement
-annapurnapost.com##div.ap__fwBigyapan:nth-of-type(n)
-annapurnapost.com##.custom-container > .bigyapan
+annapurnapost.com## .bigyapan
 ! ----- END http://annapurnapost.com -----
 
 ! ----- START https://gorkhapatraonline.com -----
@@ -239,11 +239,11 @@ sancharkendra.com##.skada
 
 ! ----- START https://hamrobazaar.com/ -----
 ||hamrobazaar.com/sponsered/*$image
+||hamrobazaar.blr1.cdn.digitaloceanspaces.com/feature_ads/*$object
 hamrobazaar.com##.overlay
 hamrobazaar.com##.inBetweenAds
 hamrobazaar.com##.topBanner
-||hamrobazaar.blr1.cdn.digitaloceanspaces.com/feature_ads/*$object
-hamrobazaar.com##div.mobInfeedGAds:nth-of-type(n)
+hamrobazaar.com##.mobInfeedGAds
 ! ----- END https://hamrobazaar.com/ -----
 
 ! ----- START https://bizmandu.com/ -----
@@ -253,7 +253,7 @@ bizmandu.com##div[class*="-ad"]
 bizmandu.com##section.banner-bigyapan
 bizmandu.com##.bigyapan-inside-content
 bizmandu.com##.banner
-bizmandu.com##section.banner-bigyapan:nth-of-type(n)
+bizmandu.com###__roadblock__
 ! ----- END https://bizmandu.com/ -----
 
 ! ----- START https://bizkhabar.com/ -----
@@ -323,22 +323,15 @@ www.lokaantar.com,lokaantar.com##.ad-banner
 nayapatrikadaily.com##.details-advdesktop
 ! ----- END https://www.nayapatrikadaily.com/ -----
 
-! ----- START https://login.connectips.com/#/login -----
-login.connectips.com##.my-2.home-advertisment
-login.connectips.com##.dropdown.btn-group-sm.dropup.mt-4.card-advertisement
-login.connectips.com##.mt-4.slider-right.card-advertisement > .slick-initialized.slick-slider > .slick-list
-! ----- END https://login.connectips.com/#/login -----
-
 ! ----- START https://arthikpage.com -----
 ||arthikpage.com/wp-content/uploads/*.gif$image
-arthikpage.com##.top__header__ads
-arthikpage.com##div.banner__ads:nth-of-type(n)
+||onlinearthik.com/wp-content/uploads/*.gif$image
 arthikpage.com##.sidebar__ads
-arthikpage.com##.row > .posts__banner__ads
+arthikpage.com##div.banner__ads
+arthikpage.com##.top__header__ads
 ! ----- END https://arthikpage.com -----
 
 ! ----- START https://merolagani.com -----
-merolagani.com###ctl00_ContentPlaceHolder1_AdvertisementB1_divGeneral
-merolagani.com##div.visible-desktop-ad.col-md-3.col-sm-12:nth-of-type(n)
+||images.merolagani.com//content/bigyapan/*$image
 ! ----- END https://merolagani.com -----
 
