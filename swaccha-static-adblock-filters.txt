@@ -1,12 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.99
+! Version: 0.1.100
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
 !
 ! Please feel free to open an issue or contribute
 ! Repo: https://github.com/sndsabin/swaccha-adblock-filter
+
+! ----- START global filter -----
+||*/bigyaapan/*$image
+! ----- END global filter -----
 
 ! ----- START https://www.setopati.com -----
 ||img.setopati.com/uploads/bigyapan/
@@ -335,3 +339,6 @@ arthikpage.com##.top__header__ads
 ||images.merolagani.com//content/bigyapan/*$image
 ! ----- END https://merolagani.com -----
 
+! ----- START https://bizshala.com -----
+bizshala.com##.ad-banner-img
+! ----- END https://bizshala.com -----
