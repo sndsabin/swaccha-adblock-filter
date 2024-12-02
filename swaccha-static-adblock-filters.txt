@@ -193,7 +193,16 @@ mediadabali.com##.ads
 ! ----- END https://mediadabali.com/ -----
 
 ! ----- START https://www.reportersnepal.com/ -----
+||i0.wp.com/www.reportersnepal.com/wp-content/uploads/*/*/*.gif$image
+||www.reportersnepal.com^*.gif$image
+||www.reportersnepal.com/wp-content/uploads/*/*/*.webp$image
 www.reportersnepal.com##.widget > a > img
+www.reportersnepal.com##.post-side.text-justify.col-md-8 > .pb-4
+www.reportersnepal.com##section.widget:nth-of-type(2)
+www.reportersnepal.com##.col-md-4 > section.widget > .size-full.wp-block-image
+www.reportersnepal.com##section.widget:nth-of-type(5)
+www.reportersnepal.com##.small-arthik-widget.d-flex.col-md-12 > section.widget
+www.reportersnepal.com##.ads > section.widget
 ! ----- END https://www.reportersnepal.com/ -----
 
 ! ----- START https://www.khabarhub.com/ -----
