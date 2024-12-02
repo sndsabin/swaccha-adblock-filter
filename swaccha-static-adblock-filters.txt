@@ -28,6 +28,11 @@ www.onlinekhabar.com###ok-box-ad-wrap
 www.onlinekhabar.com##.okam-each-ad
 ||www.nepalhomes.com/*.html$subdocument
 ||election.onlinekhabar.com/wp-content/uploads/*.gif
+||www.onlinekhabar.com/wp-content/uploads/*/*/*.gif$image
+www.onlinekhabar.com##div.ok-details-adv-in-left:nth-of-type(1)
+www.onlinekhabar.com##.flex-box.tribox-add.colspan3
+www.onlinekhabar.com##.okam-device-mobile
+www.onlinekhabar.com##.nh_widget_wrap
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://english.onlinekhabar.com -----
