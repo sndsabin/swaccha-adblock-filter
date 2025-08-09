@@ -342,3 +342,8 @@ arthikpage.com##.top__header__ads
 ! ----- START https://bizshala.com -----
 bizshala.com##.ad-banner-img
 ! ----- END https://bizshala.com -----
+
+! ----- START https://annapurnapost.com -----
+annapurnapost.com##.bigyapan
+! ----- END https://annapurnapost.com -----
+
