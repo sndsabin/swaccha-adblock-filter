@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.100
+! Version: 0.1.101
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -22,12 +22,12 @@ www.setopati.com##.mobile-fixed-ad
 ! ----- END https://www.setopati.com -----
 
 ! ----- START https://www.onlinekhabar.com -----
+||www.nepalhomes.com/*.html$subdocument
+||election.onlinekhabar.com/wp-content/uploads/*.gif
 www.onlinekhabar.com##.ok_roadblock
 www.onlinekhabar.com##div[class*="-ad"]
 www.onlinekhabar.com###ok-box-ad-wrap
 www.onlinekhabar.com##.okam-each-ad
-||www.nepalhomes.com/*.html$subdocument
-||election.onlinekhabar.com/wp-content/uploads/*.gif
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://english.onlinekhabar.com -----
@@ -36,6 +36,8 @@ english.onlinekhabar.com##.add__fullwidth
 
 ! ----- START https://ekantipur.com -----
 ||assets-cdn.kantipurdaily.com/uploads/source/ads/*$image
+||election.ekantipur.com/sponsored/
+||assets-cdn.ekantipur.com/uploads/source/ads/*$image
 ekantipur.com##div.kdaily-high-ad
 ###roadblock-ad
 ekantipur.com##.daraz-sponser
@@ -44,9 +46,8 @@ ekantipur.com##.sticky--bottom
 ekantipur.com##.static-sponsor
 ekantipur.com##.box-sponsored
 ekantipur.com##.sponsor-mobile
-||election.ekantipur.com/sponsored/
+ekantipur.com##.categorized_spons
 ekantipur.com##.js_smartbanner
-||assets-cdn.ekantipur.com/uploads/source/ads/*$image
 ! ----- END https://ekantipur.com -----
 
 ! ----- START https://pahilopost.com -----
@@ -57,10 +58,10 @@ pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidde
 ! ----- END https://pahilopost.com -----
 
 ! ----- START https://nepalkhabar.com -----
-nepalkhabar.com##.nk-sidebar-ads
 ||nepalkhabar.prixacdn.net/media/*.gif$image
 ||adalytics.prixacdn.net/media/photos/*$image
 ||nepalkhabar.prixacdn.net/media/advertisements/*$image
+nepalkhabar.com##.nk-sidebar-ads
 nepalkhabar.com##.adalytics_ad
 ! ----- END https://nepalkhabar.com -----
 
@@ -80,7 +81,8 @@ baahrakhari.com##.cube-boxs
 ! ----- START http://annapurnapost.com -----
 ||annapurnapost.prixacdn.net/media/advert/*$image
 annapurnapost.com##div.advertisement
-annapurnapost.com## .bigyapan
+annapurnapost.com##.bigyapan
+annapurnapost.com##.adalytics_ad
 ! ----- END http://annapurnapost.com -----
 
 ! ----- START https://gorkhapatraonline.com -----
@@ -132,8 +134,8 @@ www.dcnepal.com##.gam-each-ad
 ! ----- END https://wicketnepal.com/ -----
 
 ! ----- START https://www.khelpati.com -----
-www.khelpati.com##.bigyapan-box
 ||www.khelpati.com/uploads/bigyapan/*$image
+www.khelpati.com##.bigyapan-box
 ! ----- END https://www.khelpati.com -----
 
 ! ----- START https://www.nepalpress.com -----
@@ -150,8 +152,8 @@ www.sharesansar.com##.advsTrack
 ! ----- END www.sharesansar.com -----
 
 ! ----- START www.techpana.com -----
-techpana.com##div> .adalyticsblock > .adalytics_ad
 ||adalytics.prixacdn.net/*$image
+techpana.com##div> .adalyticsblock > .adalytics_ad
 ! ----- END www.techpana.com -----
 
 ! ----- START https://lokaantar.com -----
@@ -216,6 +218,9 @@ ekagaj.com##.wrapper-box
 
 ! ----- START https://ukeraa.com/ -----
 ||www.ukeraa.com/*.gif$image
+www.ukeraa.com##.bigyapaan__section
+www.ukeraa.com##.bigyapan
+www.ukeraa.com##.paraAd
 ! ----- END https://ukeraa.com/ -----
 
 ! ----- START https://merokhel.com/ -----
@@ -223,8 +228,8 @@ ekagaj.com##.wrapper-box
 ! ----- END https://merokhel.com/ -----
 
 ! ----- START https://koshionline.com/ -----
-www.koshionline.com##.ad-sec
 ||www.koshionline.com/wp-content/uploads/*.gif$image
+www.koshionline.com##.ad-sec
 ! ----- END https://koshionline.com/ -----
 
 ! ----- START https://dainiki.com/ -----
@@ -251,9 +256,9 @@ hamrobazaar.com##.mobInfeedGAds
 ! ----- END https://hamrobazaar.com/ -----
 
 ! ----- START https://bizmandu.com/ -----
-bizmandu.com##div[class*="-ad"]
 ||bizmandu.com/assets/upload/*.gif$image
 ||bizmandu.com/assets/upload/advertise/
+bizmandu.com##div[class*="-ad"]
 bizmandu.com##section.banner-bigyapan
 bizmandu.com##.bigyapan-inside-content
 bizmandu.com##.banner
@@ -270,8 +275,8 @@ purbelinews.com##section[id^="widget_sp_image-"]
 ! ----- END https://https://purbelinews.com/ -----
 
 ! ----- START https://nagariknetwork.com/ -----
-nagariknetwork.com##div[id*="adverts"]
 ||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
+nagariknetwork.com##div[id*="adverts"]
 nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-dismissible.alert
 ! ----- END https://https://nagariknetwork.com/ -----
 
@@ -342,9 +347,3 @@ arthikpage.com##.top__header__ads
 ! ----- START https://bizshala.com -----
 bizshala.com##.ad-banner-img
 ! ----- END https://bizshala.com -----
-
-! ----- START https://www.ukeraa.com -----
-www.ukeraa.com##.bigyapaan__section
-www.ukeraa.com##.bigyapan
-www.ukeraa.com##.paraAd
-! ----- END https://www.ukeraa.com -----
