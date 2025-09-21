@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.104
+! Version: 0.1.105
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -242,10 +242,6 @@ sancharkendra.com##.skada
 ||sancharkendra.com/wp-content/uploads/*.gif$image
 ! ----- END https://sancharkendra.com/ -----
 
-! ----- START https://ktmdainik.com/ -----
-||ktmdainik.com/*.gif$image
-! ----- END https://ktmdainik.com/ -----
-
 ! ----- START https://hamrobazaar.com/ -----
 ||hamrobazaar.com/sponsered/*$image
 ||hamrobazaar.blr1.cdn.digitaloceanspaces.com/feature_ads/*$object
@@ -278,21 +274,21 @@ purbelinews.com##section[id^="widget_sp_image-"]
 ||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
 nagariknetwork.com##div[id*="adverts"]
 nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-dismissible.alert
-! ----- END https://https://nagariknetwork.com/ -----
+! ----- END https://nagariknetwork.com/ -----
 
 ! ----- START https://www.surakshyanews.com -----
 ||www.surakshyanews.com/uploads/bigyapan/*$image
 ! ----- END https://www.surakshyanews.com -----
 
-! ----- START https://samadhannews.com -----
+! ----- START https://www.samadhannews.com -----
 ||samadhannews.com/wp-content/uploads/*.gif$image
 ! ----- END https://www.samadhannews.com -----
 
 ! ----- START https://www.eadarsha.com -----
 ||*eadarsha.com/wp-content/*.gif$image
-! ----- END https://www.educatenepal.com -----
+! ----- END https://www.eadarsha.com -----
 
-! ----- START https://bankingkhabar.com -----
+! ----- START https://www.bankingkhabar.com -----
 bankingkhabar.com##div[class*="add"]
 ||bankingkhabar.com/*.gif$image
 ! ----- END https://www.bankingkhabar.com -----
