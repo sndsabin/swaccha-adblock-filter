@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.103
+! Version: 0.1.104
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -39,7 +39,7 @@ english.onlinekhabar.com##.add__fullwidth
 ||election.ekantipur.com/sponsored/
 ||assets-cdn.ekantipur.com/uploads/source/ads/*$image
 ekantipur.com##div.kdaily-high-ad
-###roadblock-ad
+ekantipur.com###roadblock-ad
 ekantipur.com##.daraz-sponser
 ekantipur.com##article.sponsored.normal
 ekantipur.com##.sticky--bottom
@@ -269,10 +269,10 @@ bizmandu.com###__roadblock__
 ||i*.wp.com/www.bizkhabar.com/wp-content/uploads/*.gif$image
 ! ----- END https://bizkhabar.com/ -----
 
-! ----- START https://https://purbelinews.com/ -----
+! ----- START https://purbelinews.com/ -----
 purbelinews.com##div[class*="ads"]
 purbelinews.com##section[id^="widget_sp_image-"]
-! ----- END https://https://purbelinews.com/ -----
+! ----- END https://purbelinews.com/ -----
 
 ! ----- START https://nagariknetwork.com/ -----
 ||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
@@ -294,11 +294,11 @@ nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-di
 
 ! ----- START https://bankingkhabar.com -----
 bankingkhabar.com##div[class*="add"]
-.gif^$domain=bankingkhabar.com,image
+||bankingkhabar.com/*.gif$image
 ! ----- END https://www.bankingkhabar.com -----
 
 ! ----- START https://arthasarokar.com -----
-||arthasarokar.com/*.gif
+||arthasarokar.com/*.gif$image
 arthasarokar.com##.custom-ad-link
 arthasarokar.com##.twin-ad-wrapper
 ! ----- END https://arthasarokar.com -----
