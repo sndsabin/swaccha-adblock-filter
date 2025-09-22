@@ -221,6 +221,7 @@ ekagaj.com##.wrapper-box
 www.ukeraa.com##.bigyapaan__section
 www.ukeraa.com##.bigyapan
 www.ukeraa.com##.paraAd
+ukeraa.com##.adalytics_ad
 ! ----- END https://ukeraa.com/ -----
 
 ! ----- START https://merokhel.com/ -----
