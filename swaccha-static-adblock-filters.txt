@@ -344,3 +344,7 @@ arthikpage.com##.top__header__ads
 ! ----- START https://bizshala.com -----
 bizshala.com##.ad-banner-img
 ! ----- END https://bizshala.com -----
+
+! ----- START https://www.ronbpost.com/ -----
+www.ronbpost.com/##.widget img
+! ----- END https://www.ronbpost.com/ -----
