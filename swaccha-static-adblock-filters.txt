@@ -113,6 +113,12 @@ techlekh.com##div[id$="_ad"]
 
 ! ----- START https://ratopati.com/ -----
 www.ratopati.com##.adv-item
+||npcdn.ratopati.com/media/promo/*.gif$image
+www.ratopati.com##.news-detail-overflow.dn__side--add
+www.ratopati.com##.content-banner--single
+www.ratopati.com##.news-contentarea > .full-banner-adv.contentarea-adv
+www.ratopati.com##div.full-banner-adv.contentarea-adv:nth-of-type(7)
+www.ratopati.com##.dn-container > .full-banner-adv
 ! ----- END https://ratopati.com/ -----
 
 ! ----- START https://shilapatra.com -----
