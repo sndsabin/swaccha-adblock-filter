@@ -345,7 +345,10 @@ arthikpage.com##.top__header__ads
 bizshala.com##.ad-banner-img
 ! ----- END https://bizshala.com -----
 
-
 ! ----- START https://sunaulonepal.com -----
 sunaulonepal.com##.widget_media_image
 ! ----- END https://sunaulonepal.com -----
+
+! ----- START https://dhankutakhabar.com.np -----
+dhankutakhabar.com.np##.widget_media_image
+! ----- END https://dhankutakhabar.com.np -----
