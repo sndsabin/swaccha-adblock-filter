@@ -222,6 +222,7 @@ www.ukeraa.com##.bigyapaan__section
 www.ukeraa.com##.bigyapan
 www.ukeraa.com##.paraAd
 ukeraa.com##.adalytics_ad
+ukeraa.com##.modal-container
 ! ----- END https://ukeraa.com/ -----
 
 ! ----- START https://merokhel.com/ -----
