@@ -28,6 +28,8 @@ www.onlinekhabar.com##.ok_roadblock
 www.onlinekhabar.com##div[class*="-ad"]
 www.onlinekhabar.com###ok-box-ad-wrap
 www.onlinekhabar.com##.okam-each-ad
+! This selects the "ADVERTISMENT" element that shows up in the mobile version
+www.onlinekhabar.com##.ok18-single-post-content-wrap > div.single-inbetween-stories
 ! ----- END https://www.onlinekhabar.com -----
 
 ! ----- START https://english.onlinekhabar.com -----
