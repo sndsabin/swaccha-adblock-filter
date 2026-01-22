@@ -19,12 +19,18 @@ www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
 www.setopati.com##div[class*="bigyaapan"]
 www.setopati.com##.mobile-fixed-ad
+www.setopati.com##.footer
 ! ----- END https://www.setopati.com -----
 
 ! ----- START https://www.onlinekhabar.com -----
 ||www.nepalhomes.com/*.html$subdocument
 ||onlinekhabar.com/wp-content/uploads/*.gif
 www.onlinekhabar.com##.ok_roadblock
+www.onlinekhabar.com##div.ok-container:has(span.ok-bises-tag:has-text(एनपीएल))
+www.onlinekhabar.com##div.ok-container:has-text(/नेपाल प्रिमियर लिग/i)
+www.onlinekhabar.com##div.ok-container:has-text(/सन्दीप लामिछाने/i)
+www.onlinekhabar.com##.cric_result_home
+www.onlinekhabar.com##.ok18-roadblock-wrap
 www.onlinekhabar.com##div[class*="-ad"]
 www.onlinekhabar.com###ok-box-ad-wrap
 www.onlinekhabar.com##.okam-each-ad
@@ -176,6 +182,10 @@ thahakhabar.com##.bigyapan-gif-gallery
 ||creative.hamropatro.com/img/*$image
 ||adsnetwork.hamropatro.com
 ||bigyapan.hamropatro.com/parchar/*$subdocument
+hamropatro.com##.header-banner
+hamropatro.com##.footerBackground
+hamropatro.com###sptl-1
+hamropatro.com###bottom
 ! ----- END https://www.hamropatro.com/ -----
 
 ! ----- START https://www.gadgetbytenepal.com -----
@@ -224,6 +234,7 @@ www.ukeraa.com##.bigyapaan__section
 www.ukeraa.com##.bigyapan
 www.ukeraa.com##.paraAd
 ukeraa.com##.adalytics_ad
+ukeraa.com##.modal-container
 ! ----- END https://ukeraa.com/ -----
 
 ! ----- START https://merokhel.com/ -----
@@ -346,3 +357,11 @@ arthikpage.com##.top__header__ads
 ! ----- START https://bizshala.com -----
 bizshala.com##.ad-banner-img
 ! ----- END https://bizshala.com -----
+
+! ----- START https://sunaulonepal.com -----
+sunaulonepal.com##.widget_media_image
+! ----- END https://sunaulonepal.com -----
+
+! ----- START https://dhankutakhabar.com.np -----
+dhankutakhabar.com.np##.widget_media_image
+! ----- END https://dhankutakhabar.com.np -----
