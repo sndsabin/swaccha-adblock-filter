@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.1.105
+! Version: 0.2.0
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -9,15 +9,17 @@
 ! Repo: https://github.com/sndsabin/swaccha-adblock-filter
 
 ! ----- START global filter -----
+||*/bigyapan/*$image
 ||*/bigyaapan/*$image
+||adalytics*.prixacdn.net
+##div[class*="bigyapan"]
+##div[class*="bigyaapan"]
+##.adalytics_ad
 ! ----- END global filter -----
 
 ! ----- START https://www.setopati.com -----
-||img.setopati.com/uploads/bigyapan/
-||img.setopaty.com/uploads/bigyaapan/
 www.setopati.com##.mast-head.col-md-12
 www.setopati.com###inner-jacket
-www.setopati.com##div[class*="bigyaapan"]
 www.setopati.com##.mobile-fixed-ad
 ! ----- END https://www.setopati.com -----
 
@@ -61,10 +63,8 @@ pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidde
 
 ! ----- START https://nepalkhabar.com -----
 ||nepalkhabar.prixacdn.net/media/*.gif$image
-||adalytics.prixacdn.net/media/photos/*$image
 ||nepalkhabar.prixacdn.net/media/advertisements/*$image
 nepalkhabar.com##.nk-sidebar-ads
-nepalkhabar.com##.adalytics_ad
 ! ----- END https://nepalkhabar.com -----
 
 ! -----START https://goalnepal.com -----
@@ -74,17 +74,12 @@ goalnepal.com##.above-news.adbox.section
 ! ----- END https://goalnepal.com -----
 
 ! ----- START https://baahrakhari.com -----
-||baahrakhari.com/uploads/bigyaapan/*$image
-||img.baahrakhari.de/uploads/bigyaapan/*$image
-||12khari.de/uploads/bigyaapan/*$image
 baahrakhari.com##.cube-boxs
 ! ----- END https://baahrakhari.com -----
 
 ! ----- START http://annapurnapost.com -----
 ||annapurnapost.prixacdn.net/media/advert/*$image
 annapurnapost.com##div.advertisement
-annapurnapost.com##.bigyapan
-annapurnapost.com##.adalytics_ad
 ! ----- END http://annapurnapost.com -----
 
 ! ----- START https://gorkhapatraonline.com -----
@@ -100,11 +95,6 @@ gorkhapatraonline.com##div.adds
 ||www.hamrokhelkud.com/wp-content/uploads/*.gif$image
 ! ----- END https://www.hamrokhelkud.com -----
 
-! ----- START https://www.himalkhabar.com -----
-||www.himalkhabar.com/uploads/bigyaapan/*$image
-||img.himalkhabar.de/uploads/bigyaapan/*$image
-! ----- END https://www.himalkhabar.com -----
-
 ! ----- START https://www.nepalitimes.com -----
 ||www.nepalitimes.com/wp-content/*.gif$image
 ! ----- END https://www.nepalitimes.com -----
@@ -117,27 +107,16 @@ techlekh.com##div[id$="_ad"]
 www.ratopati.com##.adv-item
 ! ----- END https://ratopati.com/ -----
 
-! ----- START https://shilapatra.com -----
-||img.shilapatra.de/uploads/bigyapan/*$image
-||img.shilapatra.de/uploads/bigyaapan/*$image
-! ----- END https://shilapatra.com -----
-
 ! ----- START https://www.dcnepal.com -----
 www.dcnepal.com##.gam-each-ad
 ! ----- END https://www.dcnepal.com -----
-
-! ----- START https://kathmandupress.com -----
-||img.kathmandupress.de/uploads/bigyaapan/*$image
-||kathmandupress.com/uploads/bigyaapan/*$image
-! ----- END https://kathmandupress.com -----
 
 ! ----- START https://wicketnepal.com/ -----
 ||admana.net/imp$image
 ! ----- END https://wicketnepal.com/ -----
 
 ! ----- START https://www.khelpati.com -----
-||www.khelpati.com/uploads/bigyapan/*$image
-www.khelpati.com##.bigyapan-box
+||khelpati.com/images/*.gif
 ! ----- END https://www.khelpati.com -----
 
 ! ----- START https://www.nepalpress.com -----
@@ -145,32 +124,17 @@ nepalpress.com##.gam-each-npad
 www.nepalpress.com##.is-full-widescreen-ad
 ! ----- END https://www.nepalpress.com -----
 
-! ----- START https://nepallive.com -----
-||img.nepallive.de/uploads/bigyaapan/*$image
-! ----- END https://nepallive.com -----
-
 ! ----- START www.sharesansar.com -----
 www.sharesansar.com##.advsTrack
 ! ----- END www.sharesansar.com -----
 
-! ----- START www.techpana.com -----
-||adalytics.prixacdn.net/*$image
-techpana.com##div> .adalyticsblock > .adalytics_ad
-! ----- END www.techpana.com -----
-
 ! ----- START https://lokaantar.com -----
-lokaantar.com##.bigyapan-gif-gallery
 lokaantar.com##.bottomStickAd
-lokaantar.com##.bigyapan-title
 ! ----- END https://lokaantar.com -----
 
 ! ----- START https://www.osnepal.com -----
 www.osnepal.com##.ads
 ! ----- END https://www.osnepal.com -----
-
-! ----- START https://thahakhabar.com -----
-thahakhabar.com##.bigyapan-gif-gallery
-! ----- END https://thahakhabar.com -----
 
 ! ----- START https://www.hamropatro.com/ -----
 ||creative.hamropatro.com/img/*$image
@@ -201,7 +165,8 @@ www.reportersnepal.com##.widget > a > img
 ! ----- END https://www.reportersnepal.com/ -----
 
 ! ----- START https://www.khabarhub.com/ -----
-||i*.wp.com/sgp1.digitaloceanspaces.com/*/*.gif$image
+||khabarhub.com/*.gif
+khabarhub.com##div[class*="-ads"]
 ! ----- END https://www.khabarhub.com/ -----
 
 ! ----- START https://deshsanchar.com/ -----
@@ -220,10 +185,7 @@ ekagaj.com##.wrapper-box
 
 ! ----- START https://ukeraa.com/ -----
 ||www.ukeraa.com/*.gif$image
-www.ukeraa.com##.bigyapaan__section
-www.ukeraa.com##.bigyapan
 www.ukeraa.com##.paraAd
-ukeraa.com##.adalytics_ad
 ! ----- END https://ukeraa.com/ -----
 
 ! ----- START https://merokhel.com/ -----
@@ -236,7 +198,8 @@ www.koshionline.com##.ad-sec
 ! ----- END https://koshionline.com/ -----
 
 ! ----- START https://dainiki.com/ -----
-||www.dainiki.com/wp-content/uploads/*.gif$image
+||dainiki.com/*gif$image
+dainiki.com##div[class*="adsimage"]
 ! ----- END https://dainiki.com/ -----
 
 ! ----- START https://sancharkendra.com/ -----
@@ -265,7 +228,7 @@ bizmandu.com###__roadblock__
 ! ----- END https://bizmandu.com/ -----
 
 ! ----- START https://bizkhabar.com/ -----
-||i*.wp.com/www.bizkhabar.com/wp-content/uploads/*.gif$image
+||bizkhabar.com/*.gif$image
 ! ----- END https://bizkhabar.com/ -----
 
 ! ----- START https://purbelinews.com/ -----
