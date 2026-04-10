@@ -292,6 +292,9 @@ www.lokaantar.com,lokaantar.com##.ad-banner
 
 ! ----- START https://www.nayapatrikadaily.com/ -----
 nayapatrikadaily.com##.details-advdesktop
+nayapatrikadaily.com##.ad-wrp
+nayapatrikadaily.com##.banner-ad
+nayapatrikadaily.com##.details-adv
 ! ----- END https://www.nayapatrikadaily.com/ -----
 
 ! ----- START https://arthikpage.com -----
