@@ -440,6 +440,12 @@ code {
   border-color: var(--accent);
 }
 
+.recommended-ad-blocker {
+  color: var(--text-muted); 
+  font-size: 0.9rem; 
+  margin-bottom: 1rem;
+}
+
 
 @media (max-width: 600px) {
   .troubleshoot-area {
@@ -455,19 +461,6 @@ code {
   }
 }
 
-footer {
-  margin-top: auto;
-  border-top: 1px solid var(--border);
-  padding: 1.5rem 0;
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.8rem;
-}
-
-footer a {
-  color: var(--accent);
-  text-decoration: none;
-}
 
 @media (max-width: 600px) {
   .hero h1 {
