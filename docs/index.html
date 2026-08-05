@@ -1,159 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Swaccha Adblock Filter">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <title>Swaccha Adblock Filter</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>Swaccha Adblock Filter</title>
+  <meta name="description" content="An open-source filter list optimized to block ads, and popus on Nepal's popular news portals.">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <span class="broom-icon"><i class="fas fa-broom fa-6x"></i></span>
-        <span class="ad-icon"><i class="fas fa-ad fa-2x"></i></span></span>
-        <h1 class="my-0 mr-md-auto font-weight-normal">
-            स्वच्छ
-        </h1>
-        <a class="btn btn-outline-primary" href="https://github.com/sndsabin/swaccha-adblock-filter" target="_blank"
-            rel="noreferrer noopener">Contribute</a>
-    </div>
-    <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">स्वच्छ</h1>
-        <p class="lead">is a collection of static AdBlock filters for various popular Nepali sites. It helps you keeps
-            annoying
-            ads away from various popular Nepali sites.</p>
-        <p class="lead font-weight-bold">Note: This is not a universal solution to get rid of ads for all popular Nepali
-            sites.</p>
-    </div>
 
-    <div class="container">
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 shadow-sm">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Step 1</h4>
-                </div>
-                <div class="card-body">
-                    <h4 class="card-title">Install Any Adblock Extension</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
-                                    href="http://getadblock.com/" target="_blank"
-                                    rel="noreferrer noopener">AdBlock</a></button></li>
-                        <span class="mr-2">or</span>
-                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
-                                    href="http://adblockplus.org/" target="_blank" rel="noreferrer noopener">AdBlock
-                                    Plus</a></button>
-                        </li>
-                        <span class="mr-2">or</span>
-                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
-                                    href="https://github.com/gorhill/uBlock" target="_blank"
-                                    rel="noreferrer noopener">uBlock
-                                    Origin</a></button></li>
-                        <span class="mr-2">or</span>
-                        <li class="list-inline-item"><button type="button" class="btn btn-outline-primary"><a
-                                    href="https://adguard.com/en/adguard-browser-extension/overview.html"
-                                    target="_blank" rel="noreferrer noopener">Adguard
-                                    AdBlocker</a></button></li>
-                    </ul>
-                </div>
-            </div>
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#" class="brand">
+        <div class="logo-container">
+          <svg class="svg-inline--fa fa-broom fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="broom" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M256.47 216.77l86.73 109.18s-16.6 102.36-76.57 150.12C206.66 523.85 0 510.19 0 510.19s3.8-23.14 11-55.43l94.62-112.17c3.97-4.7-.87-11.62-6.65-9.5l-60.4 22.09c14.44-41.66 32.72-80.04 54.6-97.47 59.97-47.76 163.3-40.94 163.3-40.94zM636.53 31.03l-19.86-25c-5.49-6.9-15.52-8.05-22.41-2.56l-232.48 177.8-34.14-42.97c-5.09-6.41-15.14-5.21-18.59 2.21l-25.33 54.55 86.73 109.18 58.8-12.45c8-1.69 11.42-11.2 6.34-17.6l-34.09-42.92 232.48-177.8c6.89-5.48 8.04-15.53 2.55-22.44z"></path></svg>
+          <span class="ad-icon">
+            <svg class="svg-inline--fa fa-ad fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ad" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M157.52 272h36.96L176 218.78 157.52 272zM352 256c-13.23 0-24 10.77-24 24s10.77 24 24 24 24-10.77 24-24-10.77-24-24-24zM464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM250.58 352h-16.94c-6.81 0-12.88-4.32-15.12-10.75L211.15 320h-70.29l-7.38 21.25A16 16 0 0 1 118.36 352h-16.94c-11.01 0-18.73-10.85-15.12-21.25L140 176.12A23.995 23.995 0 0 1 162.67 160h26.66A23.99 23.99 0 0 1 212 176.13l53.69 154.62c3.61 10.4-4.11 21.25-15.11 21.25zM424 336c0 8.84-7.16 16-16 16h-16c-4.85 0-9.04-2.27-11.98-5.68-8.62 3.66-18.09 5.68-28.02 5.68-39.7 0-72-32.3-72-72s32.3-72 72-72c8.46 0 16.46 1.73 24 4.42V176c0-8.84 7.16-16 16-16h16c8.84 0 16 7.16 16 16v160z"></path></svg>
+          </span>
         </div>
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 shadow-sm">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Step 2</h4>
-                </div>
-                <div class="card-body">
-                    <h4 class="card-title">Add the static adblock filter</h4>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary"><a
-                            href="abp:subscribe?location=https://raw.githubusercontent.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt&amp;title=Swaccha static adblock filter"
-                            target="_blank" rel="noreferrer noopener">Click to add it
-                            automatically</a></button>
-                    <h5 class="mt-5">Or add it manually to your adblocker. You could also copy/paste content to filters.
-                    </h5>
-                    <div class="input-group mb-3">
-                        <input readonly="readonly" type="text" class="form-control filter-url"
-                            aria-label="Swachha adblock static filter url"
-                            value="https://raw.githubusercontent.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt"
-                            aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <span class="input-group-text" id="basic-addon2">URL</span>
-                        </div>
-                    </div>
-                    <p class="lead text-muted">
-                        If you need help with adding a filter to the filter list. Please refer to  <a
-                            href="https://ads-for-open-source.readthedocs.io/en/latest/installation.html"
-                            target="_blank" rel="noreferrer noopener">docs</a>.
-                    <p>
-                </div>
-            </div>
+        स्वच्छ
+      </a>
+      <a href="https://github.com/sndsabin/swaccha-adblock-filter" target="_blank" rel="noopener" class="github-link">
+        <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Enjoy a Cleaner Nepali Web.</h1>
+      <p>An open-source filter list optimized to block ads, and popups on Nepal's popular news portals.</p>
+    </section>
+
+    <div class="steps-grid">
+      <section class="card">
+        <h2><span class="step-number">1.</span> Install Adblocker</h2>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">Choose a recommended blocker if you haven't already.</p>
+        <div class="adblocker-list">
+          <a href="https://ublockorigin.com/" target="_blank" rel="noopener" class="blocker-btn">🛡️ uBlock Origin</a>
+          <a href="https://brave.com/" target="_blank" rel="noopener" class="blocker-btn">🦁 Brave Browser</a>
+          <a href="https://adguard.com/" target="_blank" rel="noopener" class="blocker-btn">🟢 AdGuard</a>
+          <a href="https://adblockplus.org/" target="_blank" rel="noopener" class="blocker-btn">🔴 Adblock Plus</a>
         </div>
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1>Didn't work? Site missing from the list?</h1>
-                <p class="lead"> The site might have recently updated its layout or has changed its ad
-                    URL pattern
-                    or
-                    the
-                    filter list hasn't been updated.The filter rule for the site could be missing from the list.
-                    If so, please feel free to <a href="https://github.com/sndsabin/swaccha-adblock-filter/issues/new"
-                        target="_blank" rel="noreferrer noopener">create an issue</a> or <a
-                        href="https://github.com/sndsabin/swaccha-adblock-filter/pulls" target="_blank"
-                        rel="noreferrer noopener">open a pull request</a>.</p>
+      </section>
 
-                <p>
-                    <a href="https://github.com/sndsabin/swaccha-adblock-filter/issues/new" target="_blank"
-                        rel="noreferrer noopener" class="btn btn-primary my-2">Create Issue</a>
-                    <a href="https://github.com/sndsabin/swaccha-adblock-filter/pulls" target="_blank"
-                        rel="noreferrer noopener" class="btn btn-secondary my-2">Open PR</a>
-                </p>
-                <p class="lead text-muted">
-                    If you need help with creating a custom filter. Please refer to the <a
-                        href="https://adblockplus.org/filter-cheatsheet" target="_blank" rel="noreferrer noopener">cheat
-                        sheet</a>.
-                <p>
-            </div>
-        </section>
 
-        <footer class="my-5 pt-5 text-muted text-center text-small">
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://github.com/sndsabin/swaccha-adblock-filter"
-                        target="_blank" rel="noreferrer noopener"><i class="fab fa-2x fa-github"></i></a></li>
-            </ul>
-            <ul class="list-inline">
-                <li class="list-inline-item">Built with <a href="https://getbootstrap.com" target="_blank"
-                        rel="noreferrer noopener">Bootstrap</a></li>
-            </ul>
-        </footer>
+      <section class="card">
+        <h2><span class="step-number">2.</span> Add the Filter List</h2>
+        <a href="abp:subscribe?location=https://swaccha-filter-list.sndsabin.workers.dev&title=Swaccha%20static%20adblock%20filter" class="btn btn-primary">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"></path></svg>
+          Click to add it
+        </a>
+        <div class="url-box">
+          <span class="url-text" id="filter-url-primary">https://swaccha-filter-list.sndsabin.workers.dev</span>
+          <button class="btn btn-secondary" id="copy-btn-primary">Copy URL</button>
+        </div>
+        <div class="url-divider">
+          <span>OR</span>
+        </div>
+        <div class="url-box">
+          <span class="url-text" id="filter-url-secondary">https://raw.githubusercontent.com/sndsabin/swaccha-adblock-filter/master/swaccha-static-adblock-filters.txt</span>
+          <button class="btn btn-secondary" id="copy-btn-secondary">Copy URL</button>
+        </div>
+      </section>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            var filterInputElement = $('input.filter-url');
-            filterInputElement.on('click', function () {
-                var url = $(this).select();
-                document.execCommand('copy');
-            });
-        });
-    </script>
+    
+    <section class="card tabs-card">
+      <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Manual Installation</h3>
+      <div class="tab-buttons">
+        <button class="tab-btn active" onclick="switchTab('brave', event)">🦁 Brave</button>
+        <button class="tab-btn" onclick="switchTab('ublock', event)">🛡️ uBlock Origin</button>
+        <button class="tab-btn" onclick="switchTab('adguard', event)">🟢 AdGuard</button>
+        <button class="tab-btn" onclick="switchTab('adblock', event)">🛑 Adblock</button>
+        <button class="tab-btn" onclick="switchTab('adblockplus', event)">🔴 Adblock Plus</button>
+      </div>
+
+      <div id="tab-brave" class="tab-content active">
+        <ul class="manual-steps">
+          <li>Navigate to <code>brave://adblock</code>.</li>
+          <li>Paste the raw URL into <strong>Add custom filter lists</strong> box.</li>
+          <li>Click <strong>Add</strong>.</li>
+        </ul>
+      </div>
+
+      <div id="tab-ublock" class="tab-content">
+        <ul class="manual-steps">
+          <li>Open the uBlock Origin settings dashboard.</li>
+          <li>Navigate to the <strong>Filter lists</strong> tab.</li>
+          <li>Scroll to the bottom, check <strong>Import...</strong></li>
+          <li>Paste the raw URL and click <strong>Apply changes</strong>.</li>
+        </ul>
+      </div>
+
+      <div id="tab-adguard" class="tab-content">
+        <ul class="manual-steps">
+          <li>Open <strong>AdGuard Settings</strong> &rarr; <strong>Filters</strong> &rarr; <strong>Custom</strong>.</li>
+          <li>Click <strong>Add custom filter</strong>.</li>
+          <li>Paste the URL and click <strong>Next</strong>.</li>
+        </ul>
+      </div>
+
+      <div id="tab-adblock" class="tab-content">
+        <ul class="manual-steps">
+          <li>Click the Adblock extension icon and open <strong>Options</strong>.</li>
+          <li>Select <strong>Filter Lists</strong> from the left menu.</li>
+          <li>Click <strong>Add a custom filter list</strong>.</li>
+          <li>Paste the raw URL and click <strong>Add It</strong>.</li>
+        </ul>
+      </div>
+
+      <div id="tab-adblockplus" class="tab-content">
+        <ul class="manual-steps">
+          <li>Click the Adblock Plus icon and open <strong>Options</strong> (gear icon).</li>
+          <li>Go to the <strong>Advanced</strong> tab.</li>
+          <li>Under <strong>FILTER LISTS</strong>, click <strong>ADD FILTERS VIA URL</strong>.</li>
+          <li>Paste the raw URL and click <strong>ADD A FILTER LIST</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <section class="troubleshoot-area">
+      <div class="troubleshoot-header">
+        <div class="troubleshoot-icon">?</div>
+
+        <div>
+          <h4>Didn't work? Site missing from the list?</h4>
+          <p>
+            The site may have recently changed its layout, updated its ad URL
+            patterns, or the filter list may not have been updated yet.
+          </p>
+        </div>
+      </div>
+
+      <div class="troubleshoot-actions">
+        <a href="https://github.com/sndsabin/swaccha-adblock-filter/issues/new" target="_blank">Create an issue</a>
+        <a href="https://github.com/sndsabin/swaccha-adblock-filter/pulls" target="_blank">Open a pull request</a>
+        <a href="https://adblockplus.org/filter-cheatsheet" target="_blank">Filter cheat sheet</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script type="text/javascript">
+    let copyBtnPrimary = document.getElementById('copy-btn-primary');
+    let copyBtnSecondary = document.getElementById('copy-btn-secondary');
+
+    copyBtnPrimary.addEventListener("click", function (e) {
+      let filterUrlPrimary = document.getElementById('filter-url-primary').innerText;
+      copyUrl(filterUrlPrimary, e.target)
+    });
+
+    copyBtnSecondary.addEventListener("click", function (e) {
+      let filterUrlSecondary = document.getElementById('filter-url-secondary').innerText;
+      copyUrl(filterUrlSecondary, e.target)
+    });
+
+    function copyUrl(url, btnElement) {
+      navigator.clipboard.writeText(url).then(() => {
+        btnElement.innerText = 'Copied!';
+        btnElement.style.color = '#10B981'; 
+        setTimeout(() => {
+          btnElement.innerText = 'Copy URL';
+          btnElement.style.color = '';
+        }, 2000);
+      });
+    }
+
+    function switchTab(tabName, event) {
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('tab-' + tabName).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+  </script>
 </body>
-
 </html>
