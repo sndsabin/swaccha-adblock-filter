@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.2.1
+! Version: 0.2.2
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -11,9 +11,10 @@
 ! ----- START global filter -----
 ||*/bigyapan/*$image
 ||*/bigyaapan/*$image
+||*/ads/*$image
 ||adalytics*.prixacdn.net
-##div[class*="bigyapan"]
-##div[class*="bigyaapan"]
+##div[class*="bigyapan"] img
+##div[class*="bigyaapan"] img
 ##.adalytics_ad
 ! ----- END global filter -----
 
@@ -239,7 +240,7 @@ purbelinews.com##section[id^="widget_sp_image-"]
 
 ! ----- START https://nagariknetwork.com/ -----
 ||staticimg.nagariknetwork.com/uploads/medias/*.gif$image
-nagariknetwork.com##div[id*="adverts"]
+nagariknetwork.com##div[id*="adverts"] img
 nagariknews.nagariknetwork.com##.m-0.show.fixed-bottom.fade.alert-light.alert-dismissible.alert
 ! ----- END https://nagariknetwork.com/ -----
 
