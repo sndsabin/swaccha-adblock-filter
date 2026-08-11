@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.2.2
+! Version: 0.2.3
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -12,10 +12,13 @@
 ||*/bigyapan/*$image
 ||*/bigyaapan/*$image
 ||*/ads/*$image
+||*/ad/*$image
 ||adalytics*.prixacdn.net
 ##div[class*="bigyapan"] img
 ##div[class*="bigyaapan"] img
+##div[class*="ad"] img
 ##.adalytics_ad
+##img[alt*="ad" i]
 ! ----- END global filter -----
 
 ! ----- START https://www.setopati.com -----
@@ -55,13 +58,6 @@ ekantipur.com##.categorized_spons
 ekantipur.com##.js_smartbanner
 ekantipur.com##div[class*="spo"]
 ! ----- END https://ekantipur.com -----
-
-! ----- START https://pahilopost.com -----
-||pahilopost.com/assets/upload/headbanner/*$image
-||pahilopost.com/assets/upload/midadvertise/*$image
-pahilopost.com##div.uk-container-center.uk-container:nth-of-type(10) > .uk-hidden-small.uk-thumbnail-expand.pahilo-shadow-box > .uk-thumbnail-expand.uk-thumbnail
-pahilopost.com##div.uk-container-center.uk-container:nth-of-type(14) > .uk-hidden-small.uk-thumbnail-expand.pahilo-shadow-box > .uk-thumbnail-expand.uk-thumbnail
-! ----- END https://pahilopost.com -----
 
 ! ----- START https://nepalkhabar.com -----
 ||nepalkhabar.prixacdn.net/media/*.gif$image
@@ -152,6 +148,7 @@ www.gadgetbytenepal.com##div[id*="_ad"]
 
 ! ----- START https://www.prasashan.com -----
 www.prasashan.com##section.widget img
+||prasashan.com/*.gif
 ! ----- END https://www.prasashan.com -----
 
 ! ----- START https://ujyaaloonline.com -----
@@ -168,7 +165,6 @@ www.reportersnepal.com##.widget > a > img
 
 ! ----- START https://www.khabarhub.com/ -----
 ||khabarhub.com/*.gif
-khabarhub.com##div[class*="-ads"]
 ! ----- END https://www.khabarhub.com/ -----
 
 ! ----- START https://deshsanchar.com/ -----
