@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.2.5
+! Version: 0.2.6
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -207,12 +207,7 @@ sancharkendra.com##.skada
 ! ----- END https://sancharkendra.com/ -----
 
 ! ----- START https://hamrobazaar.com/ -----
-||hamrobazaar.com/sponsered/*$image
-||hamrobazaar.blr1.cdn.digitaloceanspaces.com/feature_ads/*$object
-hamrobazaar.com##.overlay
-hamrobazaar.com##.inBetweenAds
-hamrobazaar.com##.topBanner
-hamrobazaar.com##.mobInfeedGAds
+hamrobazaar.com##img[alt*="ad" i]
 ! ----- END https://hamrobazaar.com/ -----
 
 ! ----- START https://bizmandu.com/ -----
