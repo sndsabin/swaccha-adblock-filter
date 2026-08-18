@@ -114,7 +114,7 @@ www.dcnepal.com##.gam-each-ad
 
 ! ----- START https://www.khelpati.com -----
 ||khelpati.com/images/*.gif
-khelpati.com/##img[alt*="ad" i]
+khelpati.com##img[alt*="ad" i]
 ! ----- END https://www.khelpati.com -----
 
 ! ----- START https://www.nepalpress.com -----
