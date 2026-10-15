@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Swaccha Adblock Filter
-! Version: 0.2.8
+! Version: 0.2.9
 ! Expires: 1 days (update frequency)
 ! Homepage: https://sndsabin.github.io/swaccha-adblock-filter/
 ! License: https://github.com/sndsabin/swaccha-adblock-filter/blob/master/LICENSE
@@ -14,6 +14,7 @@
 ||adalytics*.prixacdn.net
 ##div[class*="bigyapan"] img
 ##div[class*="bigyaapan"] img
+##div[class*="bigyapaan"] img
 ##.adalytics_ad
 ! ----- END global filter -----
 
